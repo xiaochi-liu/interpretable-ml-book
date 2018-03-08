@@ -12,6 +12,44 @@
     ## Warning in as.POSIXlt.POSIXct(Sys.time()): unknown timezone 'zone/tz/2018c.
     ## 1.0/zoneinfo/Europe/Berlin'
 
+    ## Warning: package 'tm' was built under R version 3.4.3
+
+    ## Loading required package: NLP
+
+    ## Loading required package: ParamHelpers
+
+    ## 
+    ## Attaching package: 'dplyr'
+
+    ## The following objects are masked from 'package:stats':
+    ## 
+    ##     filter, lag
+
+    ## The following objects are masked from 'package:base':
+    ## 
+    ##     intersect, setdiff, setequal, union
+
+    ## 
+    ## Attaching package: 'ggplot2'
+
+    ## The following object is masked from 'package:NLP':
+    ## 
+    ##     annotate
+
+    ## Warning: package 'tidyr' was built under R version 3.4.3
+
+    ## Warning: package 'partykit' was built under R version 3.4.3
+
+    ## Loading required package: grid
+
+    ## Loading required package: libcoin
+
+    ## Warning: package 'libcoin' was built under R version 3.4.3
+
+    ## Loading required package: mvtnorm
+
+    ## Warning: package 'pre' was built under R version 3.4.3
+
 Datasets
 ========
 
@@ -60,11 +98,6 @@ features were used. Here is the list of features that were used:
     tasks.
 
 You can look at a sample of days here:
-
-    set.seed(42)
-    data("bike")
-    bike.display = bike[sample(1:nrow(bike), size=50), ]
-    knitr::kable(bike.display[1:10,])
 
 <table>
 <thead>
@@ -257,9 +290,6 @@ You can flip through some of the comments. The comments had been hand
 labeled as spam or legitimate. Spam has been coded with a '1' and
 legitimate comments with a '0'.
 
-    data(ycomments)
-    knitr::kable(ycomments[1:10, c('CONTENT', 'CLASS')])
-
 <table>
 <thead>
 <tr class="header">
@@ -315,10 +345,11 @@ You can also go over to YouTube and have a look at the comment section.
 But please don't get trapped in the YouTube hell, ending up watching
 videos about monkeys stealing and drinking cocktails from tourists on
 the beach. Also the Google Spam detector probably has changed a lot
-since 2015. Watch the view-record breaking video "Gangnam Style" below:
+since 2015.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9bZkp7q19f0" frameborder="0" allowfullscreen>
-</iframe>
+[Watch the view-record breaking video "Gangnam Style"
+here](https://www.youtube.com/watch?v=9bZkp7q19f0&feature=player_embedded)
+
 Risk Factors for Cervical Cancer (Classification)
 -------------------------------------------------
 
@@ -357,9 +388,6 @@ value of the answer might be correlated with the probability for a value
 being missing. There is probably a bias, because the questions are of a
 very private nature. But this is not a book about missing data
 imputation, so the mode imputation will suffice!
-
-    data("cervical")
-    knitr::kable(cervical[1:10, ])
 
 <table>
 <thead>

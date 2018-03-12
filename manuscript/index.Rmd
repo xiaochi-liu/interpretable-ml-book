@@ -26,7 +26,7 @@ devtools::load_all("../")
 ```
 
 
-# Preface {-}
+# Preface
 
 Machine learning has a huge potential to improve products, processes and research.
 But machines usually don't give an explanation for their predictions, which hurts trust and creates a barrier for the adoption of machine learning.

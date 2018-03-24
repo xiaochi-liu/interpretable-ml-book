@@ -61,7 +61,7 @@ The Shapley value is the average over all the marginal contributions.
 Figure \@ref(fig:shapley-coalitions) shows all coalitions for computing the Shapley value of the 'cat-forbidden' feature value.
 When we repeat the Shapley value for all feature values, we get the complete distribution of the prediction (minus the average) among the feature values.
 ```{r shapley-coalitions, fig.cap = "All coalitions of feature values that are needed to assess the Shapley value for 'cat-forbidden'. The first row shows the coalition without any feature values. The 2nd, 3rd and 4th row show different coalitions - separated by '|' - with increasing coalition size. For each of those coalitions we compute the predicted apartment price with and without the 'cat-forbidden' feature value and take the difference to get the marginal contribution. The Shapley value is the (weighted) average of marginal contributions. We replace the feature values of features that are not in a coalition with random feature values from the apartment dataset to get a prediction from the machine learning model."}
-knitr::include_graphics("./images/shapley-coalitions.jpg")
+knitr::include_graphics("./images/shapley-coalitions-smaller.jpg")
 ```
 
 

@@ -2,7 +2,7 @@
 title: "Interpretable Machine Learning"
 subtitle: "A Guide for Making Black Box Models Explainable."
 author: "Christoph Molnar"
-date: "2018-03-12"
+date: "2018-03-24"
 knit: "bookdown::render_book"
 documentclass: krantz
 biblio-style: apalike
@@ -24,7 +24,7 @@ always_allow_html: yes
 
 
 
-# Preface {-}
+# Preface
 
 Machine learning has a huge potential to improve products, processes and research.
 But machines usually don't give an explanation for their predictions, which hurts trust and creates a barrier for the adoption of machine learning.

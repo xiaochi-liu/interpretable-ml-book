@@ -30,21 +30,23 @@ Here is the list of features that were used:
 - windspeed: Wind speed in km per hour.
 - cnt: Count of total rental bikes including both casual and registered. The count was used as the target in the regression tasks.
 
-You can look at a sample of days here:
+You can look at one day here:
 
 
-|    |season |yr   |mnth |holiday    |weekday |workingday  |weathersit |      temp|     hum| windspeed|  cnt| days_since_2011|
-|:---|:------|:----|:----|:----------|:-------|:-----------|:----------|---------:|-------:|---------:|----:|---------------:|
-|669 |WINTER |2012 |OKT  |NO HOLIDAY |TUE     |WORKING DAY |MISTY      |  6.954554| 82.5455| 14.271603| 1096|             668|
-|685 |WINTER |2012 |NOV  |NO HOLIDAY |THU     |WORKING DAY |MISTY      |  7.118349| 62.0417| 10.250129| 5445|             684|
-|209 |FALL   |2011 |JUL  |NO HOLIDAY |THU     |WORKING DAY |GOOD       | 28.620849| 58.3333| 11.958093| 4390|             208|
-|605 |FALL   |2012 |AUG  |NO HOLIDAY |MON     |WORKING DAY |GOOD       | 25.056651| 73.0417|  8.625111| 6917|             604|
-|467 |SUMMER |2012 |APR  |NO HOLIDAY |WED     |WORKING DAY |GOOD       |  8.388712| 46.9565| 19.783358| 4862|             466|
-|377 |SPRING |2012 |JAN  |NO HOLIDAY |THU     |WORKING DAY |MISTY      |  9.977500| 80.2917| 12.124789| 4097|             376|
-|535 |SUMMER |2012 |JUN  |NO HOLIDAY |MON     |WORKING DAY |MISTY      | 18.711651| 77.7917| 11.707982| 5099|             534|
-|98  |SUMMER |2011 |APR  |NO HOLIDAY |FRI     |WORKING DAY |MISTY      |  7.784151| 83.6250| 15.208464| 1471|              97|
-|476 |SUMMER |2012 |APR  |NO HOLIDAY |FRI     |WORKING DAY |GOOD       | 16.753349| 69.4583| 10.041357| 7290|             475|
-|510 |SUMMER |2012 |MAY  |NO HOLIDAY |THU     |WORKING DAY |GOOD       | 22.785000| 71.6667| 11.584032| 6770|             509|
+|                |            |
+|:---------------|:-----------|
+|season          |WINTER      |
+|yr              |2012        |
+|mnth            |OKT         |
+|holiday         |NO HOLIDAY  |
+|weekday         |TUE         |
+|workingday      |WORKING DAY |
+|weathersit      |MISTY       |
+|temp            |6.954554    |
+|hum             |82.5455     |
+|windspeed       |14.2716     |
+|cnt             |1096        |
+|days_since_2011 |668         |
 
 ## YouTube Spam Comments (Text Classification) {#spam-data}
 As an example for text classification we will be using 1956 comments from 5 different YouTube videos.
@@ -84,40 +86,47 @@ The cervical cancer dataset contains indicators and risk factors for predicting 
 The features contain demographics (e.g. age), habits, and medical history.
 The data can be downloaded from the [UCI Machine Learning repository](https://archive.ics.uci.edu/ml/datasets/Cervical+cancer+%28Risk+Factors%29) and is described by @fernandes2017transfer.
 
-The subset of features, which are used in this book are:
+The subset of features, which are used in the examples are:
 
-- (int) Age
-- (int) Number of sexual partners
-- (int) First sexual intercourse (age)
-- (int) Num of pregnancies
-- (bool) Smokes yes (1) or no (1)
-- (int) Smokes (years)
-- (bool) Hormonal Contraceptives yes (1) or no (0)
-- (int) Hormonal Contraceptives (years)
-- (bool) IUD: Intrauterine device yes (1) or no (1)
-- (int) IUD (years): Number of years with an intrauterine device
-- (bool) STDs: Ever had a sexually transmitted disease? Yes (1) or no (0)
-- (int) STDs (number): Number of sexually transmitted diseases.
-- (int) STDs: Number of diagnosis
-- (int) STDs: Time since first diagnosis
-- (int) STDs: Time since last diagnosis
-- (bool) Biopsy: Biopsy results "Healthy" or "Cancer". Target outcome.
+- Age in years
+- Number of sexual partners
+- First sexual intercourse (age in years)
+- Number of pregnancies
+- Smokes yes (1) or no (1)
+- Smokes (years)
+- Hormonal Contraceptives yes (1) or no (0)
+- Hormonal Contraceptives (years)
+- IUD: Intrauterine device yes (1) or no (1)
+- IUD (years): Number of years with an intrauterine device
+- STDs: Ever had a sexually transmitted disease? Yes (1) or no (0)
+- STDs (number): Number of sexually transmitted diseases.
+- STDs: Number of diagnosis
+- STDs: Time since first diagnosis
+- STDs: Time since last diagnosis
+- Biopsy: Biopsy results "Healthy" or "Cancer". Target outcome.
 
 As the biopsy serves as the gold standard for diagnosing cervical cancer, the classification task in this book used the biopsy outcome as the target.
 Missing values for each column were imputed by the mode (most frequent value), which is probably a bad solution, because the value of the answer might be correlated with the probability for a value being missing.
 There is probably a bias, because the questions are of a very private nature.
 But this is not a book about missing data imputation, so the mode imputation will suffice!
 
+The data of one of the women in the dataset:
 
-| Age| Number.of.sexual.partners| First.sexual.intercourse| Num.of.pregnancies| Smokes| Smokes..years.| Hormonal.Contraceptives| Hormonal.Contraceptives..years.| IUD| IUD..years.| STDs| STDs..number.| STDs..Number.of.diagnosis| STDs..Time.since.first.diagnosis| STDs..Time.since.last.diagnosis|Biopsy  |
-|---:|-------------------------:|------------------------:|------------------:|------:|--------------:|-----------------------:|-------------------------------:|---:|-----------:|----:|-------------:|-------------------------:|--------------------------------:|-------------------------------:|:-------|
-|  18|                         4|                       15|                  1|      0|       0.000000|                       0|                               0|   0|           0|    0|             0|                         0|                                1|                               1|Healthy |
-|  15|                         1|                       14|                  1|      0|       0.000000|                       0|                               0|   0|           0|    0|             0|                         0|                                1|                               1|Healthy |
-|  34|                         1|                       15|                  1|      0|       0.000000|                       0|                               0|   0|           0|    0|             0|                         0|                                1|                               1|Healthy |
-|  52|                         5|                       16|                  4|      1|      37.000000|                       1|                               3|   0|           0|    0|             0|                         0|                                1|                               1|Healthy |
-|  46|                         3|                       21|                  4|      0|       0.000000|                       1|                              15|   0|           0|    0|             0|                         0|                                1|                               1|Healthy |
-|  42|                         3|                       23|                  2|      0|       0.000000|                       0|                               0|   0|           0|    0|             0|                         0|                                1|                               1|Healthy |
-|  51|                         3|                       17|                  6|      1|      34.000000|                       0|                               0|   1|           7|    0|             0|                         0|                                1|                               1|Cancer  |
-|  26|                         1|                       26|                  3|      0|       0.000000|                       1|                               2|   1|           7|    0|             0|                         0|                                1|                               1|Healthy |
-|  45|                         1|                       20|                  5|      0|       0.000000|                       0|                               0|   0|           0|    0|             0|                         0|                                1|                               1|Healthy |
-|  44|                         3|                       15|                  1|      1|       1.266973|                       0|                               0|   0|           0|    0|             0|                         0|                                1|                               1|Healthy |
+|                                 |        |
+|:--------------------------------|:-------|
+|Age                              |44      |
+|Number.of.sexual.partners        |3       |
+|First.sexual.intercourse         |26      |
+|Num.of.pregnancies               |4       |
+|Smokes                           |0       |
+|Smokes..years.                   |0       |
+|Hormonal.Contraceptives          |1       |
+|Hormonal.Contraceptives..years.  |2       |
+|IUD                              |0       |
+|IUD..years.                      |0       |
+|STDs                             |0       |
+|STDs..number.                    |0       |
+|STDs..Number.of.diagnosis        |0       |
+|STDs..Time.since.first.diagnosis |1       |
+|STDs..Time.since.last.diagnosis  |1       |
+|Biopsy                           |Healthy |

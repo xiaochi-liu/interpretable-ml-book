@@ -8,7 +8,7 @@ classification, regression and text classification.
 
 ## Bike Sharing Counts (Regression) {#bike-data}
 This dataset contains daily counts of bike rentals from bike sharing company [Capital-Bikeshare](https://www.capitalbikeshare.com/) in Washington D.C., along with weather and seasonal information.
-The data was kindly open sourced by Capital-Bikeshare and the folks from @bike2013 have added the weather data and the seasonal information.
+The data was kindly open sourced by Capital-Bikeshare and the folks from Fanaee-T and Gama (2013)[^Fanaee] have added the weather data and the seasonal information.
 The goal is to predict how many rental bikes will be out on the street given weather and day. The data can be downloaded from the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset).
 
 
@@ -50,7 +50,7 @@ You can look at one day here:
 
 ## YouTube Spam Comments (Text Classification) {#spam-data}
 As an example for text classification we will be using 1956 comments from 5 different YouTube videos.
-Thankfully the authors that used this dataset in an article about spam classification made the data  [freely available](http://dcomp.sor.ufscar.br/talmeida/youtubespamcollection/) [@alberto2015tubespam].
+Thankfully the authors that used this dataset in an article about spam classification made the data  [freely available](http://dcomp.sor.ufscar.br/talmeida/youtubespamcollection/) (Alberto, Lochter, and Almeida 2015[^Alberto]).
 
 The comments were  collected through the YouTube API from five of the ten most viewed videos
 on YouTube in the first half of 2015. All of the 5 videos are music videos.
@@ -84,7 +84,7 @@ Also the Google Spam detector probably has changed a lot since 2015.
 
 The cervical cancer dataset contains indicators and risk factors for predicting if a woman will get cervical cancer.
 The features contain demographics (e.g. age), habits, and medical history.
-The data can be downloaded from the [UCI Machine Learning repository](https://archive.ics.uci.edu/ml/datasets/Cervical+cancer+%28Risk+Factors%29) and is described by @fernandes2017transfer.
+The data can be downloaded from the [UCI Machine Learning repository](https://archive.ics.uci.edu/ml/datasets/Cervical+cancer+%28Risk+Factors%29) and is described by K. Fernandes, Cardoso, and Fernandes (2017) [^Fernandes].
 
 The subset of features, which are used in the examples are:
 
@@ -130,3 +130,10 @@ The data of one of the women in the dataset:
 |STDs..Time.since.first.diagnosis |1       |
 |STDs..Time.since.last.diagnosis  |1       |
 |Biopsy                           |Healthy |
+
+
+[^Fanaee]: Fanaee-T, Hadi, and Joao Gama. 2013. “Event Labeling Combining Ensemble Detectors and Background Knowledge.” Progress in Artificial Intelligence. Springer Berlin Heidelberg, 1–15. doi:10.1007/s13748-013-0040-3.
+
+[^Alberto]: Alberto, Túlio C, Johannes V Lochter, and Tiago A Almeida. 2015. “Tubespam: Comment Spam Filtering on Youtube.” In Machine Learning and Applications (Icmla), 2015 Ieee 14th International Conference on, 138–43. IEEE.
+
+[^Fernandes]: Fernandes, Kelwin, Jaime S Cardoso, and Jessica Fernandes. 2017. “Transfer Learning with Partial Observability Applied to Cervical Cancer Screening.” In Iberian Conference on Pattern Recognition and Image Analysis, 243–50. Springer.

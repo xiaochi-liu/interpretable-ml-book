@@ -30,24 +30,6 @@ Here is the list of features that were used:
 - windspeed: Wind speed in km per hour.
 - cnt: Count of total rental bikes including both casual and registered. The count was used as the target in the regression tasks.
 
-You can look at one day here:
-
-
-|                |            |
-|:---------------|:-----------|
-|season          |WINTER      |
-|yr              |2012        |
-|mnth            |OKT         |
-|holiday         |NO HOLIDAY  |
-|weekday         |TUE         |
-|workingday      |WORKING DAY |
-|weathersit      |MISTY       |
-|temp            |6.954554    |
-|hum             |82.5455     |
-|windspeed       |14.2716     |
-|cnt             |1096        |
-|days_since_2011 |668         |
-
 ## YouTube Spam Comments (Text Classification) {#spam-data}
 As an example for text classification we will be using 1956 comments from 5 different YouTube videos.
 Thankfully the authors that used this dataset in an article about spam classification made the data  [freely available](http://dcomp.sor.ufscar.br/talmeida/youtubespamcollection/) (Alberto, Lochter, and Almeida 2015[^Alberto]).
@@ -109,27 +91,6 @@ As the biopsy serves as the gold standard for diagnosing cervical cancer, the cl
 Missing values for each column were imputed by the mode (most frequent value), which is probably a bad solution, because the value of the answer might be correlated with the probability for a value being missing.
 There is probably a bias, because the questions are of a very private nature.
 But this is not a book about missing data imputation, so the mode imputation will suffice!
-
-The data of one of the women in the dataset:
-
-|                                 |        |
-|:--------------------------------|:-------|
-|Age                              |44      |
-|Number.of.sexual.partners        |3       |
-|First.sexual.intercourse         |26      |
-|Num.of.pregnancies               |4       |
-|Smokes                           |0       |
-|Smokes..years.                   |0       |
-|Hormonal.Contraceptives          |1       |
-|Hormonal.Contraceptives..years.  |2       |
-|IUD                              |0       |
-|IUD..years.                      |0       |
-|STDs                             |0       |
-|STDs..number.                    |0       |
-|STDs..Number.of.diagnosis        |0       |
-|STDs..Time.since.first.diagnosis |1       |
-|STDs..Time.since.last.diagnosis  |1       |
-|Biopsy                           |Healthy |
 
 
 [^Fanaee]: Fanaee-T, Hadi, and Joao Gama. 2013. “Event Labeling Combining Ensemble Detectors and Background Knowledge.” Progress in Artificial Intelligence. Springer Berlin Heidelberg, 1–15. doi:10.1007/s13748-013-0040-3.

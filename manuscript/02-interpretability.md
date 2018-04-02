@@ -55,7 +55,7 @@ The advertising is following me on the Internet because I have bought a washing 
 Yes, it makes sense to suggest gloves, when I already have a winter hat in my shopping basket.
 The algorithm recommended this movie, because users that liked other movies that I also liked, enjoyed the recommended movie.
 Increasingly, Internet companies are adding explanations to their recommendations.
-A good example is the Amazon product recommendation based on frequently bought product combinations, see Figure \@ref(fig:amazon-recommendation).
+A good example is the Amazon product recommendation based on frequently bought product combinations:
 ![Recommended products when buying some paint from [Amazon](https://www.amazon.com/Colore-Acrylic-Paint-Set-12/dp/B014UMGA5W/). Visited on December 5th 2012.](images/amazon-freq-bought-together.png)
 
 
@@ -103,8 +103,9 @@ Interestingly, there can be a misalignment between the goal of the explaining ma
 Maybe the correct explanation why Doge got stuck could be that the battery was very low, additionally one of the wheels is not working properly and on top of that there is a bug that causes the robot to re-try to go to the same spot over and over again, even though there was some obstacle in the way.
 These reasons (and some more) caused the robot to get stuck, but it only explained that there was something in the way, and this was enough for me to trust its behaviour, and to get a shared meaning of that accident, which I can share with my girlfriend.
 ("By the way, Doge got stuck again in the bathroom, we have to remove the carpets before we let it clean").
-The example of the robot getting stuck on the carpet might not even require an explanation, because I can explain it to myself by observing that Doge can't move on this carpet mess, see Figure \@ref(fig:doge-stuck)
+The example of the robot getting stuck on the carpet might not even require an explanation, because I can explain it to myself by observing that Doge can't move on this carpet mess.
 But there are other situations, which are less obvious, like a full dirt bag.
+
 ![Doge, my vacuum cleaner got stuck. As an explanation for the accident, Doge told me that it needs to be on a flat surface.](images/doge-stuck.png)
 
 Only with interpretability can machine learning algorithms be **debugged and audited**.
@@ -394,17 +395,16 @@ A good example is 'The bigger a house the more expensive it is', which is a very
 **What it means for interpretable machine learning**:
 Generality is easily measured by a feature's support, which is the number of instances for which the explanation applies over the total number of instances.
 
-[^Miller2017]: Miller, Tim. 2017. “Explanation in Artificial Intelligence: Insights from the Social Sciences.” arXiv Preprint arXiv:1706.07269.
+[^Miller2017]: Miller, Tim. 2017. "Explanation in Artificial Intelligence: Insights from the Social Sciences." arXiv Preprint arXiv:1706.07269.
 
-[^Doshi2017]: Doshi-Velez, Finale, and Been Kim. 2017. “Towards A Rigorous Science of Interpretable Machine Learning,” no. Ml: 1–13. http://arxiv.org/abs/1702.08608.
+[^Doshi2017]: Doshi-Velez, Finale, and Been Kim. 2017. "Towards A Rigorous Science of Interpretable Machine Learning," no. Ml: 1–13. http://arxiv.org/abs/1702.08608.
 
-[^Heider]: Heider, Fritz, and Marianne Simmel. 1944. “An Experimental Study of Apparent Behavior.” The American Journal of Psychology 57 (2). JSTOR: 243–59.
+[^Heider]: Heider, Fritz, and Marianne Simmel. 1944. "An Experimental Study of Apparent Behavior." The American Journal of Psychology 57 (2). JSTOR: 243–59.
 
-[^Lipton2016]: Lipton, Zachary C. 2016. “The Mythos of Model Interpretability.” ICML Workshop on Human Interpretability in Machine Learning, no. Whi.
+[^Lipton2016]: Lipton, Zachary C. 2016. "The Mythos of Model Interpretability." ICML Workshop on Human Interpretability in Machine Learning, no. Whi.
 
-[^Kahnemann]: Kahneman, Daniel, and Amos Tversky. 1981. “The Simulation Heuristic.” STANFORD UNIV CA DEPT OF PSYCHOLOGY.
+[^Kahnemann]: Kahneman, Daniel, and Amos Tversky. 1981. "The Simulation Heuristic." STANFORD UNIV CA DEPT OF PSYCHOLOGY.
 
-[^Strumbelj2011]: Štrumbelj, Erik, and Igor Kononenko. 2011. “A General Method for Visualizing and Explaining Black-Box Regression Models.” In International Conference on Adaptive and Natural Computing Algorithms, 21–30. Springer.
+[^Strumbelj2011]: Štrumbelj, Erik, and Igor Kononenko. 2011. "A General Method for Visualizing and Explaining Black-Box Regression Models." In International Conference on Adaptive and Natural Computing Algorithms, 21–30. Springer.
 
-
-[^Nickerson]: Nickerson, Raymond S. 1998. “Confirmation Bias: A Ubiquitous Phenomenon in Many Guises.” Review of General Psychology 2 (2). Educational Publishing Foundation: 175.
+[^Nickerson]: Nickerson, Raymond S. 1998. "Confirmation Bias: A Ubiquitous Phenomenon in Many Guises." Review of General Psychology 2 (2). Educational Publishing Foundation: 175.

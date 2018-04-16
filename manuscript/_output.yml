@@ -1,4 +1,5 @@
 bookdown::gitbook:
+  cover-image: images/cover.jpg
   dev: svglite
   split_by: section
   includes:

@@ -2,6 +2,7 @@ bookdown::gitbook:
   cover-image: images/cover.jpg
   dev: svglite
   split_by: section
+  css: css/style.css
   includes:
     in_header: html/header.html
   config:
@@ -15,3 +16,4 @@ bookdown::gitbook:
         <li><a href="./">Interpretable machine learning</a></li>
       after: |
         <li><a href="https://bookdown.org" target="blank">Published with bookdown</a></li>
+

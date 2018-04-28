@@ -2,7 +2,7 @@
 title: "Interpretable Machine Learning"
 subtitle: "A Guide for Making Black Box Models Explainable."
 author: "Christoph Molnar"
-date: "2018-04-16"
+date: "2018-04-28"
 knit: "bookdown::render_book"
 documentclass: krantz
 link-citations: yes
@@ -23,6 +23,7 @@ always_allow_html: yes
 
 # Preface
 
+
 Machine learning has a huge potential to improve products, processes and research. But machines usually don’t give an explanation for their predictions, which creates a barrier for the adoption of machine learning. This book is about making machine learning models and their decisions interpretable.
 
 After exploring the concepts of interpretability, you will learn about simple, interpretable models and how to interpret them. The later chapters focus on general model-agnostic tools for analysing complex models and making their decisions interpretable. In an ideal future, machines will be able to explain their decisions and the algorithmic age we are moving towards will be as human as possible.
@@ -30,7 +31,8 @@ After exploring the concepts of interpretability, you will learn about simple, i
 This book is recommended for machine learning practitioners, data scientists, statisticians and anyone else interested in making machine decisions more human.
 
 
-**About me:** My name is Christoph Molnar, I am a statistician and machine learner working on making machine learning interpretable.
+
+**About me:** My name is Christoph Molnar, I am a statistician and machine learner, working on making machine learning interpretable.
 If you are interested in bringing interpretability to your machine learning models, feel free to contact me!
 
 Mail: christoph.molnar.ai@gmail.com

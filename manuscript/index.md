@@ -2,7 +2,7 @@
 title: "Interpretable Machine Learning"
 subtitle: "A Guide for Making Black Box Models Explainable."
 author: "Christoph Molnar"
-date: "2018-05-23"
+date: "2018-06-11"
 knit: "bookdown::render_book"
 documentclass: krantz
 link-citations: yes

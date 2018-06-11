@@ -130,38 +130,37 @@ An interpretable model can tell you why it decided that a certain person is not 
 - Causality: Check if only causal relationships are picked up. Meaning a predicted change in a decision due to arbitrary changes in the input values are also happening in reality.
 - Trust: It is easier for humans to trust a system that explains its decisions compared to a black box.
 
-**When we don't need interpretability**
+**When we don't need interpretability.**
 
-The following scenarios illustrate when we don't need or want interpretability for machine learning models:
+The following scenarios illustrate when we don't need or even don't want interpretability for machine learning models.
 
-Interpretability is unnecessary, when the model has **no significant impact**.
-Imagine someone who has a machine learning side project for predicting where their friends will go to for their next holidays, based on Facebook data (why would someone do this?).
-This person just like surprising their friends with (machine learning boosted) guesses where they will go for holidays.
-Since there is no significant impact when the model is wrong or when there is no explanation for the output, it's completely fine to have no interpretability.
-The situation changes when this person would start building a company around these holiday predictions.
-If the model is wrong, the company will lose money, or the model might deny services to people based on some learned racial bias.
-Once the model has a significant impact, be it financially or on other people, interpretability becomes relevant.
+Interpretability is not required if the model **has no significant impact**.
+Imagine someone named Mike working on a machine learning side project to predict where his friends will go to for their next vacation based on Facebook data.
+Mike just likes it to surprise his friends with educated guesses where they're going on vacation.
+There is no real problem if the model is wrong (just a little embarrassment for Mike), it is also not problematic if Mike can't explain the output of his model.
+It's perfectly fine not to have any interpretability.
+The situation would change when Mike starts building a company around these vacation destination predictions.
+If the model is wrong, the company will lose money, or the model could refuse services to people based on some learned racial bias.
+As soon as the model has a significant impact, either financially or socially, the interpretability becomes relevant.
 
-Interpretability is unnecessary, when the **problem is well-studied**.
-Some applications are sufficiently well-studied, so that there is enough experience in using it and all problems with the problem have been eradicated.
-A good example is a machine learning model for optical character recognition, which reads in images of addresses and extracts the addresses in an electronic format.
-There have been many years of experience in using these systems, and it is clear that they work. 
-Also, we are not really interested in gaining additional insights about the task at hand ("Look this guys weird L's are recognized as Z's."). 
-So nobody is interested in interpretability of the system.
+Interpretability is not required when the **problem is well-studied**.
+Some applications have been sufficiently well-studied so that there is enough practical experience with the model and problems with the model have been solved over time.
+A good example is a machine learning model for optical character recognition that processes images of envelopes and extracts the addresses.
+There are years of experience in using these systems and it is clear that they work. 
+Also we are not really interested in gaining additional insights about the task at hand. 
 
-Interpretability would enable **gaming the system**.
-Problems with users fooling a system originates from a mismatch in the objectives of the creator and the user of a game.
-Credit scoring is such a system, because the banks want to make sure to give loans to applicants who are likely to give it back. 
-The applicants always have the goal to get the loan, even if the bank has another opinion.
-This mismatch of objectives of bank and the applicants introduces incentives for the applicants to game the system to increase their chances of getting a loan, which doesn't have to be illegal.
-When an applicant knows that a having more then two credit cards is negative, he simply returns his third card to improve his score, but simply get a new card after the loan was approved.
-While his score improved, the true probability of paying back the loan remained the same.
-I don't agree with that argument fully, because the system can only be gamed if the inputs are proxies and not causal and whenever possible, then proxies should not be used at all.
-Proxies are often the reason for broken models: 
-Google created a system called Google Flu Trends for predicting flu outbreaks, which worked correlating Google searches with flu outbreaks.
-Google searches are not known to cause the flu, so they are merely proxies for the flu.
-The Google Flu Trend does not work well at all.
-Ideally, models would only use causal features, then both the problems of gaming the system and many issues with biases and wrong models would also improve.
+Interpretability might enable **gaming the system**.
+Problems with users fooling a system result from a mismatch in the objectives of the creator and the user of a model.
+Credit scoring is one such system because the banks want to ensure to give loans to applicants who are likely to return it and the applicants have the goal to get the loan even if the bank has a different opinion.
+This mismatch between objectives introduces incentives for the applicants to game the system to increase their chances of getting a loan.
+If an applicant knows that having more than two credit cards affects the score negatively, he simply returns his third credit card to improve his score, and simply gets a new card after the loan has been approved.
+While his score improved, the true probability of repaying the loan remained the same.
+The system can only be gamed if the inputs are proxies for another feature, but are not the cause of the outcome.
+Whenever possible, proxy features should be avoided, as they are often the reason for defective models. 
+For example, Google developed a system called Google Flu Trends for predicting flu outbreaks that correlates Google searches with flu outbreaks - and it performed rather poorly so far. 
+The distribution of searches changed and Google Flu Trends missed many flu outbreaks.
+Google searches are not known to cause the flu and people searching for symptoms like "fever" merely imply a correlation.
+Ideally, models would only use causal features, because then they are not gameable and a lot of issues with biases would not occur.
 
 ## Criteria for Interpretability Methods
 

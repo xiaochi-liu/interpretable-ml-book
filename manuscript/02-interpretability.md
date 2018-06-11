@@ -1,4 +1,7 @@
 
+{pagebreak}
+
+
 
 # Interpretability {#interpretability}
 
@@ -126,6 +129,39 @@ An interpretable model can tell you why it decided that a certain person is not 
 - Reliability or Robustness: Test that small changes in the input don't lead to big changes in the prediction.
 - Causality: Check if only causal relationships are picked up. Meaning a predicted change in a decision due to arbitrary changes in the input values are also happening in reality.
 - Trust: It is easier for humans to trust a system that explains its decisions compared to a black box.
+
+**When we don't need interpretability**
+
+The following scenarios illustrate when we don't need or want interpretability for machine learning models:
+
+Interpretability is unnecessary, when the model has **no significant impact**.
+Imagine someone who has a machine learning side project for predicting where their friends will go to for their next holidays, based on Facebook data (why would someone do this?).
+This person just like surprising their friends with (machine learning boosted) guesses where they will go for holidays.
+Since there is no significant impact when the model is wrong or when there is no explanation for the output, it's completely fine to have no interpretability.
+The situation changes when this person would start building a company around these holiday predictions.
+If the model is wrong, the company will lose money, or the model might deny services to people based on some learned racial bias.
+Once the model has a significant impact, be it financially or on other people, interpretability becomes relevant.
+
+Interpretability is unnecessary, when the **problem is well-studied**.
+Some applications are sufficiently well-studied, so that there is enough experience in using it and all problems with the problem have been eradicated.
+A good example is a machine learning model for optical character recognition, which reads in images of addresses and extracts the addresses in an electronic format.
+There have been many years of experience in using these systems, and it is clear that they work. 
+Also, we are not really interested in gaining additional insights about the task at hand ("Look this guys weird L's are recognized as Z's."). 
+So nobody is interested in interpretability of the system.
+
+Interpretability would enable **gaming the system**.
+Problems with users fooling a system originates from a mismatch in the objectives of the creator and the user of a game.
+Credit scoring is such a system, because the banks want to make sure to give loans to applicants who are likely to give it back. 
+The applicants always have the goal to get the loan, even if the bank has another opinion.
+This mismatch of objectives of bank and the applicants introduces incentives for the applicants to game the system to increase their chances of getting a loan, which doesn't have to be illegal.
+When an applicant knows that a having more then two credit cards is negative, he simply returns his third card to improve his score, but simply get a new card after the loan was approved.
+While his score improved, the true probability of paying back the loan remained the same.
+I don't agree with that argument fully, because the system can only be gamed if the inputs are proxies and not causal and whenever possible, then proxies should not be used at all.
+Proxies are often the reason for broken models: 
+Google created a system called Google Flu Trends for predicting flu outbreaks, which worked correlating Google searches with flu outbreaks.
+Google searches are not known to cause the flu, so they are merely proxies for the flu.
+The Google Flu Trend does not work well at all.
+Ideally, models would only use causal features, then both the problems of gaming the system and many issues with biases and wrong models would also improve.
 
 ## Criteria for Interpretability Methods
 
@@ -436,5 +472,3 @@ Generality is easily measured by a feature's support, which is the number of ins
 [^Strumbelj2011]: Štrumbelj, Erik, and Igor Kononenko. 2011. "A General Method for Visualizing and Explaining Black-Box Regression Models." In International Conference on Adaptive and Natural Computing Algorithms, 21–30. Springer.
 
 [^Nickerson]: Nickerson, Raymond S. 1998. "Confirmation Bias: A Ubiquitous Phenomenon in Many Guises." Review of General Psychology 2 (2). Educational Publishing Foundation: 175.
-
-{pagebreak}

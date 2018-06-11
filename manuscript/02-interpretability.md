@@ -436,3 +436,5 @@ Generality is easily measured by a feature's support, which is the number of ins
 [^Strumbelj2011]: Štrumbelj, Erik, and Igor Kononenko. 2011. "A General Method for Visualizing and Explaining Black-Box Regression Models." In International Conference on Adaptive and Natural Computing Algorithms, 21–30. Springer.
 
 [^Nickerson]: Nickerson, Raymond S. 1998. "Confirmation Bias: A Ubiquitous Phenomenon in Many Guises." Review of General Psychology 2 (2). Educational Publishing Foundation: 175.
+
+{pagebreak}

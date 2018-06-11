@@ -56,3 +56,8 @@ manuscript/*.md
 manuscript/cache
 
 kindlegen
+manuscript/images/*.png
+
+# From SBRL package usage
+*.out
+*.label

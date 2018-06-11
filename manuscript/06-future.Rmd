@@ -30,7 +30,7 @@ We wrongly specify the goals either because we don't know all the constraints or
 Let's look at public limited companies as an example of imperfect goal specification: A public limited company has the simple goal of earning money for its shareholders. 
 But this specification does not capture the true goal with all its constraints that we really strive for:
 For example, we don't appreciate a company killing people to make money, poisoning rivers or to simply printing its own money. 
-We have invented laws, regulations, penalties, compliance procedures and more to patch up the imperfect goal specification.
+We have invented laws, regulations, penalties, compliance procedures, labor unions and more to patch up the imperfect goal specification.
 Another example you can live through yourself: [Paperclips](http://www.decisionproblem.com/paperclips/index2.html), a game in which you play a machine with the goal of producing as many paperclips as possible. 
 WARNING: It's addictive.
 I don't want to spoil it too much, but let's say things get out of hand really quickly.
@@ -172,7 +172,9 @@ So why switch from analyzing assumption-based, transparent models to analyzing a
 Because making all these assumptions is problematic:
 They are usually wrong (unless you believe that most of the world follows a Gaussian distribution), difficult to check, very restricting for the relationships the model can represent and hard to automate.
 Assumption-based models typically have worse predictive performance on untouched test data than black box machine learning models.
-The approach of machine learning is attractive: 
+This is only true for big data sets, since interpretable models with good assumptions will perform better than black box models with many parameters.
+The black box machine learning approach needs a lot of data to work well.
+Because of the digitization of everything, we will have bigger and bigger datasets and therefore the approach of machine learning becomes more attractive: 
 We don't make assumptions, we approximate reality as closely as possible (while avoiding overfitting on the training data).
 I argue that we should develop all the tools that we have in statistics to answer questions (hypothesis tests, correlation measures, interaction measures, visualization tools, confidence intervals, p-values, prediction intervals, probability distributions) and rewrite them for black box models.
 In a way, this is already happening: 

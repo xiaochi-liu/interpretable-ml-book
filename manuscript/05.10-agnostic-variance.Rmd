@@ -1,10 +1,21 @@
 ## Analysis of Variance {#variance}
 
+
+```{r, message = FALSE, warning = FALSE, echo = FALSE}
+devtools::load_all()
+set.seed(42)
+
+library("sensitivity")
+library("mlr")
+```
+
 Analyse how much the model predictions vary.
 
 
 
 ### ANOVA
+
+
 
 ### Sobol
 Very short
@@ -22,6 +33,37 @@ Very short
 TODO: Show both Sobol and Shapley to emphasize the difference
 
 **Bike sharing**
+
+```{r variance-bike, fig.cap = "TODO"}
+data("bike")
+task = makeRegrTask(data = bike, target = "cnt")
+learner = makeLearner('regr.svm')
+mod = mlr::train(learner, task)
+predictor = Predictor$new(mod, data = bike[-which(names(bike) == "cnt")], y = bike$cnt)
+
+Xall = function(n){
+  n.index = sample(1:nrow(bike), size = n, replace = TRUE)
+  bike[n.index,]
+}
+
+Xset = function(n, Sj, Sjc, xjc) {
+  n.index = sample(1:nrow(bike), size = n, replace = TRUE)
+  sample.x = bike[n.index,]
+  sample.x[Sjc] = xjc[Sjc]
+  stopifnot(ncol(sample.x) ==  ncol(bike))
+  sample.x
+}
+
+fun = function(X){
+  predictor$predict(X)[[1]]
+}
+
+shapleyPermRand(model = fun, Xall = Xall, Xset = Xset, 
+  m = 10, d = ncol(bike) , Nv = 1e3, No = 1, Ni = 3, colnames = colnames(bike))
+
+
+```
+
 
 **Cervical cancer**
 

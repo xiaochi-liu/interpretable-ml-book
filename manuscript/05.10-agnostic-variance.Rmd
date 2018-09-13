@@ -1,0 +1,41 @@
+## Analysis of Variance {#variance}
+
+Analyse how much the model predictions vary.
+
+
+
+### ANOVA
+
+### Sobol
+Very short
+
+
+**First order indices**
+
+**Second order indices**
+
+### Shapley
+
+
+### Example
+
+TODO: Show both Sobol and Shapley to emphasize the difference
+
+**Bike sharing**
+
+**Cervical cancer**
+
+
+### Advantages
+Compare it mainly to feature importance
+- Tells you what the model does
+- Analysis that is completely underrated, actually I have never seen anything like this in a paper. 
+Maybe it means that it is not necessary?
+I don't believe so, because the ANOVA, it's counter part, or also the linear model is used heavily. 
+Basically anytime you read "variancce explained".
+
+### Disadvantages
+- Not coupled to performance of model. 
+A feature can vary the output lots, but not much difference in the prediction performance.
+- Sobol only works for independent inputs, Shapley is cost intensive.
+- 

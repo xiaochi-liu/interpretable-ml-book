@@ -40,12 +40,31 @@ browseURL('_book/index.html')
 ```
 
 
+## Writing
+
+Stuff that both works for leanpub and for bookdown:
+
+- Titles start with #, subtitles with ## and so on.
+- Titles can be tagged using {#tag-of-the-title}
+- Chapters can be referenced by using `[text of the link](#tag-of-the-title)`
+- Figures can be referenced by using `[text of the link](#fig:tag-of-r-chunk-that-produced-figure)`
+- Start and end mathematical expressions with `$` (inline) or with `$$` (extra line). Will be automatically changed for leanpub with a regexpr. Conversion script only works if no empty spaces are in the formula.
 
 ## Changelog
 All notable changes to the book will be documented here.
 
-=======
-### v0.5 (IN PROGRESS)
+
+### v0.6 (IN PROGRESS)
+- Added chapter on accumulated local effects plots
+- Added some advantages and disadvantages to pdps
+- Added chapter on extending linear models
+- Fixed missing square in the Friedman H-statistic
+- Added discussion about training vs. test data in feature importance chapter
+- Improved the definitions, also added some graphics
+- Added an example with a categorical feature to PDP
+
+### v0.5 (2018-08-14)
+- Added chapter on influential instances
 - Added chapter on Decision Rules
 - Added chapter on adversarial machine examples
 - Added chapter on prototypes and criticisms

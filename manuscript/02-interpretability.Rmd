@@ -59,7 +59,7 @@ Yes, it makes sense to suggest gloves, when I already have a winter hat in my sh
 The algorithm recommended this movie, because users that liked other movies that I also liked, enjoyed the recommended movie.
 Increasingly, Internet companies are adding explanations to their recommendations.
 A good example is the Amazon product recommendation based on frequently bought product combinations:
-```{r amazon-recommendation, fig.cap='Recommended products when buying some paint from [Amazon](https://www.amazon.com/Colore-Acrylic-Paint-Set-12/dp/B014UMGA5W/). Visited on December 5th 2012.'}
+```{r amazon-recommendation, fig.cap='Recommended products when buying some paint from [Amazon](https://www.amazon.com/Colore-Acrylic-Paint-Set-12/dp/B014UMGA5W/). Visited on December 5th 2012.', out.width=500}
 knitr::include_graphics("images/amazon-freq-bought-together.png")
 ```
 
@@ -69,7 +69,7 @@ The **goal of science** is to gain knowledge, but many problems can only be solv
 The model itself becomes a source of knowledge, instead of the data.
 Interpretability allows to tap into this additional knowledge captured by the model.
 
-Machine learning models are taking over real world tasks, that demand **safety measurements** and testing.
+Machine learning models are taking over real world tasks, that demand **safety measures** and testing.
 Imagine a self-driving car automatically detects cyclists, which is as desired.
 You want to be 100% sure that the abstraction the system learned will be fail-safe, because running over cyclists is quite bad.
 An explanation might reveal that the most important feature learned is to recognise the two wheels of a bike and this explanation helps you to think about edge cases like bikes with side bags, that partially cover the wheels.
@@ -111,7 +111,7 @@ These reasons (and some more) caused the robot to get stuck, but it only explain
 The example of the robot getting stuck on the carpet might not even require an explanation, because I can explain it to myself by observing that Doge can't move on this carpet mess.
 But there are other situations, which are less obvious, like a full dirt bag.
 
-```{r doge-stuck, fig.cap="Doge, my vacuum cleaner got stuck. As an explanation for the accident, Doge told me that it needs to be on a flat surface."}
+```{r doge-stuck, fig.cap="Doge, my vacuum cleaner got stuck. As an explanation for the accident, Doge told me that it needs to be on a flat surface.", out.width=800}
 knitr::include_graphics("images/doge-stuck.png")
 ```
 
@@ -203,9 +203,10 @@ Algorithm transparency is about how the algorithm learns a model from the data a
 If you are using convolutional neural networks for classifying images, you can explain that the algorithm learns edge detectors and filters on the lowest layers.
 This is an understanding of how the algorithm works, but not of the specific model that is learned in the end and not about how single predictions are made.
 For this level of transparency, only knowledge about the algorithm and not about the data or concrete learned models are required.
-This book  focuses on model interpretability and not algorithm transparency.
+This book focuses on model interpretability and not algorithm transparency.
 Algorithms like the least squares method for linear models are well studied and understood.
 They score high in transparency.
+Deep learning approaches (pushing a gradient through a network with millions of weights) are less well understood and the inner workings are in the focus of on-going research.
 It is not clear how they exactly work, so they are less transparent.
 
 
@@ -250,7 +251,7 @@ For example the value of an apartment might not depend linearly on the size.
 But if you only look at a specific apartment of 100 square meters and check how the price changes by going up and down by 10 square meters, there is a chance that this subregion in your data space is linear. Local explanations can be more accurate compared to global explanations because of this.
 This book presents methods that can make single predictions more interpretable in the [section about model-agnostic methods](#agnostic).
 
-### Local Interpretability for a Group of Prediction
+### Local Interpretability for a Group of Predictions
 *Why did the model make specific decisions for a group of instances?*
 
 The model predictions for multiple instances can be explained by either using methods for global model interpretability (on a modular level) or single instance explanations.
@@ -262,8 +263,6 @@ There is no real consensus on what interpretability in machine learning is.
 Also it is not clear how to measure it.
 But there is some first research on it and the attempt to formulate some approaches for the evaluation, as described in the following section.
 
-
-### Approaches for Evaluating the Interpretability Quality
 Doshi-Velez and Kim (2017) propose three major levels when evaluating interpretability:
 
 - **Application level evaluation (real task)**: Put the explanation into the product and let the end user test it.
@@ -280,7 +279,8 @@ Shorter trees would get a better explainability rating.
 It would make sense to add the constraint that the predictive performance of the tree remains good and does not drop too much compared to a larger tree.
 
 
-#### More on Function Level Evaluation
+**More on Function Level Evaluation**
+
 Model size is an easy way to measure explanation quality, but it is too simplistic.
 For example, a sparse model with features that are themselves not interpretable is still not a good explanation.
 

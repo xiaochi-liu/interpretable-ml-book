@@ -49,12 +49,27 @@ Stuff that both works for leanpub and for bookdown:
 - Chapters can be referenced by using `[text of the link](#tag-of-the-title)`
 - Figures can be referenced by using `[text of the link](#fig:tag-of-r-chunk-that-produced-figure)`
 - Start and end mathematical expressions with `$` (inline) or with `$$` (extra line). Will be automatically changed for leanpub with a regexpr. Conversion script only works if no empty spaces are in the formula.
+- Leave empty lines between formulas and text (if formula not inline)
+- References have to be writen like this: `[^ref-tag]` and must be at the end of the respective file with `[^ref]: Details of the reference ...`. Make sure the space is included. References are collected in 10-reference.Rmd with the script references.R. Make sure not to use `[^ref-tag]: ` anywhere in the text, only at the bottom for the actual reference.
 
 ## Changelog
 All notable changes to the book will be documented here.
 
 
-### v0.6 (IN PROGRESS)
+### v0.7 (IN PROGRESS)
+- Renamed Definitions chapter to Terminology
+- Added mathematical notation to Terminology (former Definitions) chapter
+- Added LASSO example
+- Restructured lm chapter and added pros/cons
+- Renamed "Criteria of Interpretability Methods" to "Taxonomy of Interpretability Methods"
+- Added advantages and disadvantages of logistic regression
+- Added list of references at the end of book
+- Added images to the short stories
+- Added drawback of shapley value: feature have to be independent
+- Added tree decomposition and feature importance to tree chapter
+- Improved explanation of individual prediction in lm
+
+### v0.6 (2018-11-02)
 - Added chapter on accumulated local effects plots
 - Added some advantages and disadvantages to pdps
 - Added chapter on extending linear models

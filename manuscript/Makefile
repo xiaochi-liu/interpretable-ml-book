@@ -6,7 +6,7 @@ md.files := $(shell cat ${book.file})
 package: ../DESCRIPTION ../R/*.R
 	Rscript  -e "devtools::install('../')"
 
-html : *.Rmd
+html :  *.Rmd
 	# When build fails interpretable-ml.Rmd is created and not removed. Next build will fail when file exists.
 	rm -f interpretable-ml.Rmd
 	Rscript  -e "bookdown::render_book('./', 'bookdown::gitbook')"
@@ -15,7 +15,7 @@ leanpub : $(md.files)
 
 %.md : %.Rmd
 	Rscript  -e "knitr::knit('$<', envir = new.env())" 
-	R --no-save --args $@ < fixmath.R
+	R --no-save --args $@ < ../scripts/fix-leanpub.R
 
 
 pdf : interpretable-ml.pdf
@@ -39,3 +39,6 @@ mobi : _book/interpretable-ml.epub
 	rm -f interpretable-ml.Rmd
 	Rscript  -e "bookdown::kindlegen('./_book/interpretable-ml.epub', exec = '../kindlegen')"
 
+
+10-references.Rmd : *.Rmd
+	Rscript ../scripts/references.R

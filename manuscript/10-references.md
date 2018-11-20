@@ -63,6 +63,8 @@ R. C. Holte (1993). Very simple classification rules perform well on most common
 
 Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin (2018). "Anchors: High-precision model-agnostic explanations." AAAI Conference on Artificial Intelligence.
 
+Staniak M, Biecek P (2018).
+
 Szegedy, C., Zaremba, W., Sutskever, I., Bruna, J., Erhan, D., Goodfellow, I., & Fergus, R. (2013). Intriguing properties of neural networks, 1–10. http://doi.org/10.1021/ct2009208
 
 Wachter, S., Mittelstadt, B., & Russell, C. (2017). Counterfactual Explanations without Opening the Black Box: Automated Decisions and the GDPR, (1), 1–47. https://doi.org/10.2139/ssrn.3063289
@@ -70,3 +72,42 @@ Wachter, S., Mittelstadt, B., & Russell, C. (2017). Counterfactual Explanations 
 Yang, H., Rudin, C., & Seltzer, M. (2016). Scalable Bayesian Rule Lists, 31. Retrieved from http://arxiv.org/abs/1602.08610
 
 Zhao, Q., & Hastie, T. (2016). Causal interpretations of black-box models. Technical Report.
+
+**R Packages Used for Examples**
+
+**base**. R Core Team (2018). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
+
+**data.table**. Matt Dowle and Arun Srinivasan (2018). data.table: Extension of `data.frame`. R package version 1.11.8. https://CRAN.R-project.org/package=data.table
+
+**dplyr**. Hadley Wickham, Romain François, Lionel Henry and Kirill Müller (2018). dplyr: A Grammar of Data Manipulation. R package version 0.7.8. https://CRAN.R-project.org/package=dplyr
+
+**ggplot2**. Hadley Wickham, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke and Kara Woo (2018). ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. R package version 3.1.0. https://CRAN.R-project.org/package=ggplot2
+
+**iml**. Christoph Molnar (2018). iml: Interpretable Machine Learning. R package version 0.7.0. https://github.com/christophM/iml
+
+**knitr**. Yihui Xie (2018). knitr: A General-Purpose Package for Dynamic Report Generation in R. R package version 1.20. https://CRAN.R-project.org/package=knitr
+
+**libcoin**. Torsten Hothorn (2017). libcoin: Linear Test Statistics for Permutation Inference. R package version 1.0-1. https://CRAN.R-project.org/package=libcoin
+
+**memoise**. Hadley Wickham, Jim Hester, Kirill Müller and Daniel Cook (2017). memoise: Memoisation of Functions. R package version 1.1.0. https://CRAN.R-project.org/package=memoise
+
+**mlr**. Bernd Bischl, Michel Lang, Lars Kotthoff, Julia Schiffner, Jakob Richter, Zachary Jones, Giuseppe Casalicchio, Mason Gallo and Patrick Schratz (2018). mlr: Machine Learning in R. R package version 2.13. https://CRAN.R-project.org/package=mlr
+
+**mvtnorm**. Alan Genz, Frank Bretz, Tetsuhisa Miwa, Xuefei Mi and Torsten Hothorn (2018). mvtnorm: Multivariate Normal and t Distributions. R package version 1.0-8. https://CRAN.R-project.org/package=mvtnorm
+
+**NLP**. Kurt Hornik (2018). NLP: Natural Language Processing Infrastructure. R package version 0.2-0. https://CRAN.R-project.org/package=NLP
+
+**ParamHelpers**. Bernd Bischl, Michel Lang, Jakob Richter, Jakob Bossek, Daniel Horn and Pascal Kerschke (2018). ParamHelpers: Helpers for Parameters in Black-Box Optimization, Tuning and
+Machine Learning. R package version 1.11. https://CRAN.R-project.org/package=ParamHelpers
+
+**partykit**. Torsten Hothorn and Achim Zeileis (2018). partykit: A Toolkit for Recursive Partytioning. R package version 1.2-2. https://CRAN.R-project.org/package=partykit
+
+**pre**. Marjolein Fokkema and Benjamin Christoffersen (2018). pre: Prediction Rule Ensembles. R package version 0.6.0. https://CRAN.R-project.org/package=pre
+
+**readr**. Hadley Wickham, Jim Hester and Romain Francois (2017). readr: Read Rectangular Text Data. R package version 1.1.1. https://CRAN.R-project.org/package=readr
+
+**rpart**. Terry Therneau and Beth Atkinson (2018). rpart: Recursive Partitioning and Regression Trees. R package version 4.1-13. https://CRAN.R-project.org/package=rpart
+
+**tidyr**. Hadley Wickham and Lionel Henry (2018). tidyr: Easily Tidy Data with 'spread()' and 'gather()' Functions. R package version 0.8.2. https://CRAN.R-project.org/package=tidyr
+
+**tm**. Ingo Feinerer and Kurt Hornik (2018). tm: Text Mining Package. R package version 0.7-5. https://CRAN.R-project.org/package=tm

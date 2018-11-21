@@ -63,7 +63,7 @@ R. C. Holte (1993). Very simple classification rules perform well on most common
 
 Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin (2018). "Anchors: High-precision model-agnostic explanations." AAAI Conference on Artificial Intelligence.
 
-Staniak M, Biecek P (2018).
+Staniak M, Biecek P (2018). "Explanations of Model Predictions with live and breakDown Packages." _ArXiv e-prints_. 1804.01955, <URL: https://arxiv.org/abs/1804.01955>.
 
 Szegedy, C., Zaremba, W., Sutskever, I., Bruna, J., Erhan, D., Goodfellow, I., & Fergus, R. (2013). Intriguing properties of neural networks, 1–10. http://doi.org/10.1021/ct2009208
 

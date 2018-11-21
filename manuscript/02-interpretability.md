@@ -57,7 +57,7 @@ Yes, it makes sense to suggest gloves, when I already have a winter hat in my sh
 The algorithm recommended this movie, because users that liked other movies that I also liked, enjoyed the recommended movie.
 Increasingly, Internet companies are adding explanations to their recommendations.
 A good example is the Amazon product recommendation based on frequently bought product combinations:
-<img src="images/amazon-freq-bought-together.png" title="Recommended products when buying some paint from [Amazon](https://www.amazon.com/Colore-Acrylic-Paint-Set-12/dp/B014UMGA5W/). Visited on December 5th 2012." alt="Recommended products when buying some paint from [Amazon](https://www.amazon.com/Colore-Acrylic-Paint-Set-12/dp/B014UMGA5W/). Visited on December 5th 2012." width="500" />
+![Recommended products when buying some paint from [Amazon](https://www.amazon.com/Colore-Acrylic-Paint-Set-12/dp/B014UMGA5W/). Visited on December 5th 2012.](images/amazon-freq-bought-together.png)
 
 
 There is a shift in many scientific disciplines from qualitative to quantitative methods (e.g. sociology, psychology), and also towards machine learning (biology, genomics).
@@ -107,7 +107,7 @@ These reasons (and some more) caused the robot to get stuck, but it only explain
 The example of the robot getting stuck on the carpet might not even require an explanation, because I can explain it to myself by observing that Doge can't move on this carpet mess.
 But there are other situations, which are less obvious, like a full dirt bag.
 
-<img src="images/doge-stuck.png" title="Doge, my vacuum cleaner got stuck. As an explanation for the accident, Doge told me that it needs to be on a flat surface." alt="Doge, my vacuum cleaner got stuck. As an explanation for the accident, Doge told me that it needs to be on a flat surface." width="800" />
+![Doge, my vacuum cleaner got stuck. As an explanation for the accident, Doge told me that it needs to be on a flat surface.](images/doge-stuck.png)
 
 Only with interpretability can machine learning algorithms be **debugged and audited**.
 So even in low risk environments, like movie recommendation, interpretability in the research and development stage as well as after deployment is valuable.

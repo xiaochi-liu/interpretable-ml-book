@@ -83,7 +83,7 @@ Zhao, Q., & Hastie, T. (2016). Causal interpretations of black-box models. Techn
 
 **ggplot2**. Hadley Wickham, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke and Kara Woo (2018). ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. R package version 3.1.0. https://CRAN.R-project.org/package=ggplot2
 
-**iml**. Christoph Molnar (2018). iml: Interpretable Machine Learning. R package version 0.7.0. https://github.com/christophM/iml
+**iml**. Christoph Molnar (2018). iml: Interpretable Machine Learning. R package version 0.7.1. https://github.com/christophM/iml
 
 **knitr**. Yihui Xie (2018). knitr: A General-Purpose Package for Dynamic Report Generation in R. R package version 1.20. https://CRAN.R-project.org/package=knitr
 

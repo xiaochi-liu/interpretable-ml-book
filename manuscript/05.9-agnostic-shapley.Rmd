@@ -26,7 +26,7 @@ How much did each feature value contribute to the prediction compared to the ave
 
 
 The answer is easy for linear regression models:
-The effect of each feature is the weight of the feature times the feature value minus the average effect of all apartments:
+The effect of each feature is the weight of the feature times the feature value:
 This works only because of the linearity of the model.
 For more complex model we need a different solution.
 For example [LIME](#lime) suggests local models to estimate effects.
@@ -283,7 +283,7 @@ iInstead of comparing a prediction with the average prediction of the whole data
 This contrastiveness is also something that local models like LIME don't have.
 - The Shapley value is the only explanation method with a solid theory.
 The axioms - efficiency, symmetry, dummy, additivity - give the explanation a reasonable foundation.
-Methods like LIME assume linear behaviour of the machine learning model locally but there is no theory why this should work or not.
+Methods like LIME assume linear behavior of the machine learning model locally but there is no theory why this should work or not.
 - It's mind-blowing to explain a prediction as a game played by the feature values.
 
 

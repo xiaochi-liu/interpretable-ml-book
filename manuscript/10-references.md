@@ -87,7 +87,7 @@ Zhao, Q., & Hastie, T. (2016). Causal interpretations of black-box models. Techn
 
 **knitr**. Yihui Xie (2018). knitr: A General-Purpose Package for Dynamic Report Generation in R. R package version 1.20. https://CRAN.R-project.org/package=knitr
 
-**libcoin**. Torsten Hothorn (2017). libcoin: Linear Test Statistics for Permutation Inference. R package version 1.0-1. https://CRAN.R-project.org/package=libcoin
+**libcoin**. Torsten Hothorn (2018). libcoin: Linear Test Statistics for Permutation Inference. R package version 1.0-2. https://CRAN.R-project.org/package=libcoin
 
 **memoise**. Hadley Wickham, Jim Hester, Kirill Müller and Daniel Cook (2017). memoise: Memoisation of Functions. R package version 1.1.0. https://CRAN.R-project.org/package=memoise
 

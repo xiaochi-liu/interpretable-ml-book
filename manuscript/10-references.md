@@ -29,11 +29,11 @@ Fernandes, Kelwin, Jaime S Cardoso, and Jessica Fernandes. 2017. “Transfer Lea
 
 Fokkema, Marjolein, and Benjamin Christoffersen. 2017. Pre: Prediction Rule Ensembles. https://CRAN.R-project.org/package=pre.
 
+Friedman, Jerome, Trevor Hastie, and Robert Tibshirani. "The Elements of Statistical Learning". 2009. www.web.stanford.edu/~hastie/ElemStatLearn/
+
 Fuernkranz, J., Gamberger, D., & Lavrač, N. (2012). Foundations of Rule Learning. Foundations of Rule Learning. https://doi.org/10.1007/978-3-540-75197-7_2
 
 Goodfellow, I. J., Shlens, J., & Szegedy, C. (2014). Explaining and Harnessing Adversarial Examples, 1–11. http://doi.org/10.1109/CVPR.2015.7298594
-
-Hastie, T, R Tibshirani, and J Friedman. 2009. The elements of statistical learning. http://link.springer.com/content/pdf/10.1007/978-0-387-84858-7.pdf.
 
 Heider, Fritz, and Marianne Simmel. 1944. "An Experimental Study of Apparent Behavior." The American Journal of Psychology 57 (2). JSTOR: 243–59.
 
@@ -43,7 +43,7 @@ Kaufman, Leonard, and Peter Rousseeuw. Clustering by means of medoids. North-Hol
 
 Kim, B., Rudin, C., & Shah, J. (n.d.). The Bayesian Case Model: A Generative Approach for Case-Based Reasoning and Prototype Classification.
 
-Kim, Been, Rajiv Khanna, and Oluwasanmi O. Koyejo. "Examples are not enough, learn to criticize! criticism for interpretability." Advances in Neural Information Processing Systems. 2016.
+Kim, Been, Rajiv Khanna, and Oluwasanmi O. Koyejo. "Examples are not enough, Learn to Criticize! Criticism for Interpretability." Advances in Neural Information Processing Systems. 2016.
 
 Kim, Been, Rajiv Khanna, and Oluwasanmi O. Koyejo. "Examples are not enough, learn to criticize! criticism for interpretability." Advances in Neural Information Processing Systems. 2016.
 

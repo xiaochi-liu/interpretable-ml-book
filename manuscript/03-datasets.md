@@ -67,7 +67,7 @@ Spam was coded with a '1' and legitimate comments with a '0'.
 |and u should.d check my channel and tell me what I should do next!                                                                                                     |     1|
 
 You can also go to YouTube and take a look at the comment section.
-But please don't get caught in YouTube hell and end up watching videos of monkeys stealing and drinking cocktails from tourists on the beach.
+But please do not get caught in YouTube hell and end up watching videos of monkeys stealing and drinking cocktails from tourists on the beach.
 The Google Spam detector has also probably changed a lot since 2015.
 
 [Watch the view-record breaking video "Gangnam Style" here](https://www.youtube.com/watch?v=9bZkp7q19f0&feature=player_embedded)

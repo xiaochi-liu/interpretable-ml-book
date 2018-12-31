@@ -9,8 +9,6 @@ Alberto, Túlio C, Johannes V Lochter, and Tiago A Almeida. 2015. “Tubespam: C
 
 Alvarez-Melis, David, and Tommi S. Jaakkola. "On the Robustness of Interpretability Methods." arXiv preprint arXiv:1806.08049 (2018).
 
-Angelino, Elaine, et al. "Learning Certifiably Optimal Rule Lists." Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 2017.
-
 Apley, D. W. (n.d.). Visualizing the Effects of Predictor Variables in Black Box Supervised Learning Models, 1–36. Retrieved from https://arxiv.org/ftp/arxiv/papers/1612/1612.08468.pdf
 
 Athalye, A., Engstrom, L., Ilyas, A., & Kwok, K. (2017). Synthesizing Robust Adversarial Examples. Retrieved from http://arxiv.org/abs/1707.07397
@@ -40,8 +38,6 @@ Heider, Fritz, and Marianne Simmel. 1944. "An Experimental Study of Apparent Beh
 Kahneman, Daniel, and Amos Tversky. 1981. "The Simulation Heuristic." STANFORD UNIV CA DEPT OF PSYCHOLOGY.
 
 Kaufman, Leonard, and Peter Rousseeuw. Clustering by means of medoids. North-Holland, 1987.
-
-Kim, B., Rudin, C., & Shah, J. (n.d.). The Bayesian Case Model: A Generative Approach for Case-Based Reasoning and Prototype Classification.
 
 Kim, Been, Rajiv Khanna, and Oluwasanmi O. Koyejo. "Examples are not enough, Learn to Criticize! Criticism for Interpretability." Advances in Neural Information Processing Systems. 2016.
 

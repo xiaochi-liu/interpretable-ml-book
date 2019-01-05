@@ -59,7 +59,7 @@ R. C. Holte (1993). Very simple classification rules perform well on most common
 
 Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin (2018). "Anchors: High-precision model-agnostic explanations." AAAI Conference on Artificial Intelligence.
 
-Staniak M, Biecek P (2018). "Explanations of Model Predictions with live and breakDown Packages." _ArXiv e-prints_. 1804.01955, <URL: https://arxiv.org/abs/1804.01955>.
+Staniak, Mateusz and Przemyslaw Biecek (2018). "Explanations of Model Predictions with live and breakDown Packages." _ArXiv e-prints_. 1804.01955, <URL: https://arxiv.org/abs/1804.01955>.
 
 Szegedy, C., Zaremba, W., Sutskever, I., Bruna, J., Erhan, D., Goodfellow, I., & Fergus, R. (2013). Intriguing properties of neural networks, 1–10. http://doi.org/10.1021/ct2009208
 
@@ -79,7 +79,7 @@ Zhao, Q., & Hastie, T. (2016). Causal interpretations of black-box models. Techn
 
 **ggplot2**. Hadley Wickham, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke and Kara Woo (2018). ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. R package version 3.1.0. https://CRAN.R-project.org/package=ggplot2
 
-**iml**. Christoph Molnar (2018). iml: Interpretable Machine Learning. R package version 0.7.1. https://github.com/christophM/iml
+**iml**. Christoph Molnar (2019). iml: Interpretable Machine Learning. R package version 0.8.1. https://github.com/christophM/iml
 
 **knitr**. Yihui Xie (2018). knitr: A General-Purpose Package for Dynamic Report Generation in R. R package version 1.20. https://CRAN.R-project.org/package=knitr
 

@@ -166,6 +166,8 @@ Google searches do not cause the flu.
 When people search for symptoms like "fever" it is merely a correlation with actual flu outbreaks.
 Ideally, models would only use causal features because they would not be gameable.
 
+
+
 ## Taxonomy of Interpretability Methods
 
 Methods for machine learning interpretability can be classified according to various criteria. 
@@ -221,6 +223,8 @@ By definition, these methods cannot have access to model internals such as weigh
 Does the interpretation method explain an individual prediction or the entire model behavior? 
 Or is the scope somewhere in between?
 Read more about the scope criterion in the next section.
+
+
 
 ## Scope of Interpretability
 An algorithm trains a model that produces the predictions. 
@@ -294,6 +298,7 @@ The global methods can be applied by taking the group of instances, treating the
 The individual explanation methods can be used on each instance and then listed or aggregated for the entire group.
 
 
+
 ## Evaluation of Interpretability
 
 There is no real consensus about what interpretability is in machine learning.
@@ -323,6 +328,8 @@ It would make sense to add the constraint that the predictive performance of the
 
 The next chapter focuses on the evaluation of explanations for individual predictions on the function level.
 What are the relevant properties of explanations that we would consider for their evaluation?
+
+
 
 ## Properties of Explanations {#properties}
 

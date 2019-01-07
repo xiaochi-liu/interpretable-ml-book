@@ -67,7 +67,7 @@ Wachter, S., Mittelstadt, B., & Russell, C. (2017). Counterfactual Explanations 
 
 Yang, H., Rudin, C., & Seltzer, M. (2016). Scalable Bayesian Rule Lists, 31. Retrieved from http://arxiv.org/abs/1602.08610
 
-Zhao, Q., & Hastie, T. (2016). Causal interpretations of black-box models. Technical Report.
+Zhao, Qingyuan, and Trevor Hastie. "Causal interpretations of black-box models." Journal of Business & Economic Statistics, to appear. A DEPTH AND EXPOSURE TIME (2017).
 
 **R Packages Used for Examples**
 

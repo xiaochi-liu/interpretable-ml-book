@@ -2,6 +2,7 @@
 
 
 # Datasets {#data}
+
 Throughout the book, all models and techniques are applied to real datasets that are freely available online.
 We will use different datasets for different tasks:
 Classification, regression and text classification.
@@ -39,6 +40,8 @@ For the examples in this book, the data has been slightly processed.
 You can find the processing R-script in the book's [Github repository](https://github.com/christophM/interpretable-ml-book/blob/master/R/get-bike-sharing-dataset.R) together with the [final RData file](https://github.com/christophM/interpretable-ml-book/blob/master/data/bike.RData).
 
 
+
+
 ## YouTube Spam Comments (Text Classification) {#spam-data}
 As an example for text classification we work with 1956 comments from 5 different YouTube videos.
 Thankfully, the authors who used this dataset in an article on spam classification made the data  [freely available](http://dcomp.sor.ufscar.br/talmeida/youtubespamcollection/) (Alberto, Lochter, and Almeida 2015[^Alberto]).
@@ -74,6 +77,8 @@ The Google Spam detector has also probably changed a lot since 2015.
 [Watch the view-record breaking video "Gangnam Style" here](https://www.youtube.com/watch?v=9bZkp7q19f0&feature=player_embedded).
 
 If you want to play around with the data, you can find the [RData file](https://github.com/christophM/interpretable-ml-book/blob/master/data/ycomments.RData) along with the [R-script](https://github.com/christophM/interpretable-ml-book/blob/master/R/get-SpamTube-dataset.R) with some convenience functions in the book's Github repository.
+
+
 
 ## Risk Factors for Cervical Cancer (Classification) {#cervical}
 

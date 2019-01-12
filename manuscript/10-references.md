@@ -15,7 +15,7 @@ Athalye, A., Engstrom, L., Ilyas, A., & Kwok, K. (2017). Synthesizing Robust Adv
 
 Biggio, B., & Roli, F. (2017). Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning, 32–37. Retrieved from http://arxiv.org/abs/1712.03141
 
-Breiman, Leo. 2001. “Random Forests.” Machine Learning 45 (1). Springer: 5–32.
+Breiman, Leo. 2001. “Random Forests.” Machine Learning 45 (1). Springer: 5-32.
 
 Brown, T. B., Mané, D., Roy, A., Abadi, M., & Gilmer, J. (2017). Adversarial Patch, (Nips). Retrieved from http://arxiv.org/abs/1712.09665
 
@@ -45,7 +45,7 @@ Goldstein, Alex, et al. "Package ‘ICEbox’." (2017).
 
 Goodfellow, I. J., Shlens, J., & Szegedy, C. (2014). Explaining and Harnessing Adversarial Examples, 1–11. http://doi.org/10.1109/CVPR.2015.7298594
 
-Greenwell, Brandon. M., Boehmke, B. C., & McCarthy, A. J. (2018). A Simple and Effective Model-Based Variable Importance Measure, 1–27. Retrieved from http://arxiv.org/abs/1805.04755
+Greenwell, Brandon. M., Boehmke, B. C., and McCarthy, A. J. (2018). A Simple and Effective Model-Based Variable Importance Measure, 1-27. Retrieved from http://arxiv.org/abs/1805.04755
 
 Heider, Fritz, and Marianne Simmel. 1944. "An Experimental Study of Apparent Behavior." The American Journal of Psychology 57 (2). JSTOR: 243–59.
 
@@ -81,9 +81,9 @@ Papernot, Nicolas, et al. "Practical black-box attacks against machine learning.
 
 R. C. Holte (1993). Very simple classification rules perform well on most commonly used datasets. Machine Learning, 11, 63–91.
 
-Ribeiro, M.T., Singh, S. and Guestrin, C., 2016, August. Why should i trust you?: Explaining the predictions of any classifier. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (pp. 1135-1144). ACM.
-
 Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin (2018). "Anchors: High-precision model-agnostic explanations." AAAI Conference on Artificial Intelligence.
+
+Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin. "Why should i trust you?: Explaining the predictions of any classifier." Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining. ACM, 2016.
 
 Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin. 2016. "Model-Agnostic Interpretability of Machine Learning." ICML Workshop on Human Interpretability in Machine Learning, no. Whi.
 

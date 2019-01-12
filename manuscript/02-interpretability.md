@@ -166,7 +166,7 @@ Google searches do not cause the flu.
 When people search for symptoms like "fever" it is merely a correlation with actual flu outbreaks.
 Ideally, models would only use causal features because they would not be gameable.
 
-
+{pagebreak}
 
 ## Taxonomy of Interpretability Methods
 
@@ -224,7 +224,7 @@ Does the interpretation method explain an individual prediction or the entire mo
 Or is the scope somewhere in between?
 Read more about the scope criterion in the next section.
 
-
+{pagebreak}
 
 ## Scope of Interpretability
 An algorithm trains a model that produces the predictions. 
@@ -297,7 +297,7 @@ Model predictions for multiple instances can be explained either with global mod
 The global methods can be applied by taking the group of instances, treating them as if the group were the complete dataset, and using the global methods with this subset.
 The individual explanation methods can be used on each instance and then listed or aggregated for the entire group.
 
-
+{pagebreak}
 
 ## Evaluation of Interpretability
 
@@ -329,7 +329,7 @@ It would make sense to add the constraint that the predictive performance of the
 The next chapter focuses on the evaluation of explanations for individual predictions on the function level.
 What are the relevant properties of explanations that we would consider for their evaluation?
 
-
+{pagebreak}
 
 ## Properties of Explanations {#properties}
 
@@ -408,7 +408,7 @@ The higher the novelty, the more likely it is that the model will have low certa
 - **Representativeness**: How many instances does an explanation cover?
 Explanations can cover the entire model (e.g. interpretation of weights in a linear regression model) or represent only an individual prediction (e.g. [Shapley Values](#shapley)).
 
-
+{pagebreak}
 
 ## Human-friendly Explanations {#explanation}
 

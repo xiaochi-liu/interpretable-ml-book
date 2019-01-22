@@ -11,13 +11,13 @@ Alvarez-Melis, David, and Tommi S. Jaakkola. "On the Robustness of Interpretabil
 
 Apley, D. W. (n.d.). Visualizing the Effects of Predictor Variables in Black Box Supervised Learning Models, 1–36. Retrieved from https://arxiv.org/ftp/arxiv/papers/1612/1612.08468.pdf
 
-Athalye, A., Engstrom, L., Ilyas, A., & Kwok, K. (2017). Synthesizing Robust Adversarial Examples. Retrieved from http://arxiv.org/abs/1707.07397
+Athalye, Anish, and Ilya Sutskever. "Synthesizing robust adversarial examples." arXiv preprint arXiv:1707.07397 (2017).
 
-Biggio, B., & Roli, F. (2017). Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning, 32–37. Retrieved from http://arxiv.org/abs/1712.03141
+Biggio, Battista, and Fabio Roli. "Wild patterns: Ten years after the rise of adversarial machine learning." Pattern Recognition 84 (2018): 317-331.
 
 Breiman, Leo. 2001. “Random Forests.” Machine Learning 45 (1). Springer: 5-32.
 
-Brown, T. B., Mané, D., Roy, A., Abadi, M., & Gilmer, J. (2017). Adversarial Patch, (Nips). Retrieved from http://arxiv.org/abs/1712.09665
+Brown, Tom B., et al. "Adversarial patch." arXiv preprint arXiv:1712.09665 (2017).
 
 Cohen, W. (1995). Fast effective rule induction. Icml. Retrieved from http://www.inf.ufrgs.br/~alvares/CMP259DCBD/Ripper.pdf
 
@@ -43,7 +43,7 @@ Fürnkranz, Johannes, Dragan Gamberger, and Nada Lavrač. Foundations of rule le
 
 Goldstein, Alex, et al. "Package ‘ICEbox’." (2017).
 
-Goodfellow, I. J., Shlens, J., & Szegedy, C. (2014). Explaining and Harnessing Adversarial Examples, 1–11. http://doi.org/10.1109/CVPR.2015.7298594
+Goodfellow, Ian J., Jonathon Shlens, and Christian Szegedy. "Explaining and harnessing adversarial examples (2014)." arXiv preprint arXiv:1412.6572.
 
 Greenwell, Brandon. M., Boehmke, B. C., and McCarthy, A. J. (2018). A Simple and Effective Model-Based Variable Importance Measure, 1-27. Retrieved from http://arxiv.org/abs/1805.04755
 
@@ -93,9 +93,9 @@ Staniak, Mateusz and Przemyslaw Biecek (2018). "Explanations of Model Prediction
 
 Strumbelj, Erik, Igor Kononenko, Erik Štrumbelj, and Igor Kononenko. 2014. “Explaining prediction models and individual predictions with feature contributions.” Knowledge and Information Systems 41 (3): 647–65. doi:10.1007/s10115-013-0679-x.
 
-Su, J., Vargas, D. V., & Kouichi, S. (2017). One pixel attack for fooling deep neural networks. Retrieved from http://arxiv.org/abs/1710.08864
+Su, Jiawei, Danilo Vasconcellos Vargas, and Kouichi Sakurai. "One pixel attack for fooling deep neural networks." IEEE Transactions on Evolutionary Computation (2019).
 
-Szegedy, C., Zaremba, W., Sutskever, I., Bruna, J., Erhan, D., Goodfellow, I., & Fergus, R. (2013). Intriguing properties of neural networks, 1–10. http://doi.org/10.1021/ct2009208
+Szegedy, Christian, et al. "Intriguing properties of neural networks." arXiv preprint arXiv:1312.6199 (2013).
 
 Wachter, S., Mittelstadt, B., & Russell, C. (2017). Counterfactual Explanations without Opening the Black Box: Automated Decisions and the GDPR, (1), 1–47. https://doi.org/10.2139/ssrn.3063289
 

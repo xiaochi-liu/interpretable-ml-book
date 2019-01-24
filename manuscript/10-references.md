@@ -3,13 +3,11 @@
 
 "Definition of Algorithm." 2017. https://www.merriam-webster.com/dictionary/algorithm.
 
-Aamodt, A., & Plaza, E. (1994). Case-based reasoning : Foundational issues, methodological variations, and system approaches. AI Communications, 7(1), 39–59.
-
 Alberto, Túlio C, Johannes V Lochter, and Tiago A Almeida. 2015. “Tubespam: Comment Spam Filtering on Youtube.” In Machine Learning and Applications (Icmla), 2015 Ieee 14th International Conference on, 138–43. IEEE.
 
 Alvarez-Melis, David, and Tommi S. Jaakkola. "On the Robustness of Interpretability Methods." arXiv preprint arXiv:1806.08049 (2018).
 
-Apley, D. W. (n.d.). Visualizing the Effects of Predictor Variables in Black Box Supervised Learning Models, 1–36. Retrieved from https://arxiv.org/ftp/arxiv/papers/1612/1612.08468.pdf
+Apley, Daniel W. "Visualizing the Effects of Predictor Variables in Black Box Supervised Learning Models." arXiv preprint arXiv:1612.08468 (2016).
 
 Athalye, Anish, and Ilya Sutskever. "Synthesizing robust adversarial examples." arXiv preprint arXiv:1707.07397 (2017).
 
@@ -19,7 +17,7 @@ Breiman, Leo. 2001. “Random Forests.” Machine Learning 45 (1). Springer: 5-3
 
 Brown, Tom B., et al. "Adversarial patch." arXiv preprint arXiv:1712.09665 (2017).
 
-Cohen, W. (1995). Fast effective rule induction. Icml. Retrieved from http://www.inf.ufrgs.br/~alvares/CMP259DCBD/Ripper.pdf
+Cohen, William W. "Fast effective rule induction." Machine Learning Proceedings 1995. 1995. 115-123.
 
 Cook, R. Dennis. "Detection of influential observation in linear regression." Technometrics 19.1 (1977): 15-18.
 
@@ -49,6 +47,8 @@ Greenwell, Brandon. M., Boehmke, B. C., and McCarthy, A. J. (2018). A Simple and
 
 Heider, Fritz, and Marianne Simmel. 1944. "An Experimental Study of Apparent Behavior." The American Journal of Psychology 57 (2). JSTOR: 243–59.
 
+Holte, Robert C. "Very simple classification rules perform well on most commonly used datasets." Machine learning 11.1 (1993): 63-90.
+
 Hooker, Giles (2004). Discovering Additive Structure in Black Box Functions. Knowledge Discovery and Data Mining, 575–580. http://doi.org/10.1145/1014052.1014122
 
 Kahneman, Daniel, and Amos Tversky. 1981. "The Simulation Heuristic." STANFORD UNIV CA DEPT OF PSYCHOLOGY.
@@ -59,9 +59,9 @@ Kim, Been, Rajiv Khanna, and Oluwasanmi O. Koyejo. "Examples are not enough, Lea
 
 Kim, Been, Rajiv Khanna, and Oluwasanmi O. Koyejo. "Examples are not enough, learn to criticize! criticism for interpretability." Advances in Neural Information Processing Systems. 2016.
 
-Koh, P. W., & Liang, P. (2017). Understanding Black-box Predictions via Influence Functions. Retrieved from http://arxiv.org/abs/1703.04730
+Koh, Pang Wei, and Percy Liang. "Understanding black-box predictions via influence functions." arXiv preprint arXiv:1703.04730 (2017).
 
-Laugel, T., Lesot, M.-J., Marsala, C., Renard, X., & Detyniecki, M. (2017). Inverse Classification for Comparison-based Interpretability in Machine Learning. Retrieved from http://arxiv.org/abs/1712.08443
+Laugel, Thibault, et al. "Inverse Classification for Comparison-based Interpretability in Machine Learning." arXiv preprint arXiv:1712.08443 (2017).
 
 Letham, Benjamin, et al. "Interpretable classifiers using rules and bayesian analysis: Building a better stroke prediction model." The Annals of Applied Statistics 9.3 (2015): 1350-1371.
 
@@ -71,15 +71,13 @@ Lipton, Zachary C. "The Mythos of Model Interpretability." arXiv preprint arXiv:
 
 Lundberg, Scott, and Su-In Lee. 2016. “An unexpected unity among methods for interpreting model predictions,” no. Nips: 1–6. http://arxiv.org/abs/1611.07478.
 
-Martens, D., & Provost, F. (2014). Explaining Data-Driven Document Classifications. MIS Quarterly, 38(1), 73–99. http://doi.org/10.25300/MISQ/2014/38.1.04
+Martens, David, and Foster Provost. "Explaining data-driven document classifications." (2013).
 
 Miller, Tim. 2017. "Explanation in Artificial Intelligence: Insights from the Social Sciences." arXiv Preprint arXiv:1706.07269.
 
 Nickerson, Raymond S. 1998. "Confirmation Bias: A Ubiquitous Phenomenon in Many Guises." Review of General Psychology 2 (2). Educational Publishing Foundation: 175.
 
 Papernot, Nicolas, et al. "Practical black-box attacks against machine learning." Proceedings of the 2017 ACM on Asia Conference on Computer and Communications Security. ACM, 2017.
-
-R. C. Holte (1993). Very simple classification rules perform well on most commonly used datasets. Machine Learning, 11, 63–91.
 
 Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin (2018). "Anchors: High-precision model-agnostic explanations." AAAI Conference on Artificial Intelligence.
 
@@ -97,7 +95,7 @@ Su, Jiawei, Danilo Vasconcellos Vargas, and Kouichi Sakurai. "One pixel attack f
 
 Szegedy, Christian, et al. "Intriguing properties of neural networks." arXiv preprint arXiv:1312.6199 (2013).
 
-Wachter, S., Mittelstadt, B., & Russell, C. (2017). Counterfactual Explanations without Opening the Black Box: Automated Decisions and the GDPR, (1), 1–47. https://doi.org/10.2139/ssrn.3063289
+Wachter, Sandra, Brent Mittelstadt, and Chris Russell. "Counterfactual explanations without opening the black box: Automated decisions and the GDPR." (2017).
 
 Yang, Hongyu, Cynthia Rudin, and Margo Seltzer. "Scalable Bayesian rule lists." Proceedings of the 34th International Conference on Machine Learning-Volume 70. JMLR. org, 2017.
 
@@ -105,7 +103,7 @@ Zhao, Qingyuan, and Trevor Hastie. "Causal interpretations of black-box models."
 
 Štrumbelj, Erik, and Igor Kononenko. 2011. "A General Method for Visualizing and Explaining Black-Box Regression Models." In International Conference on Adaptive and Natural Computing Algorithms, 21–30. Springer.
 
-**R Packages Used for Examples**
+**## R Packages Used for Examples**
 
 **base**. R Core Team (2018). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
 

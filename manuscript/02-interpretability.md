@@ -112,7 +112,7 @@ These reasons (and a few more) caused the robot to get stuck, but it only explai
 By the way, Doge got stuck in the bathroom again.
 We have to remove the carpets  each time before we let Doge vacuum.
 
-![Doge, our vacuum cleaner, got stuck. As an explanation for the accident, Doge told us that it needs to be on an even surface.](images/doge-stuck.png)
+![Doge, our vacuum cleaner, got stuck. As an explanation for the accident, Doge told us that it needs to be on an even surface.](images/doge-stuck.jpg)
 
 Machine learning models can only be **debugged and audited** when they can be interpreted.
 Even in low risk environments, such as movie recommendations, the ability to interpret is valuable in the research and development phase as well as after deployment.

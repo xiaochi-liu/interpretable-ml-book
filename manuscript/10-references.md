@@ -107,13 +107,13 @@ Zhao, Qingyuan, and Trevor Hastie. "Causal interpretations of black-box models."
 
 **base**. R Core Team (2018). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
 
-**data.table**. Matt Dowle and Arun Srinivasan (2019). data.table: Extension of `data.frame`. R package version 1.12.0. https://CRAN.R-project.org/package=data.table
+**data.table**. Matt Dowle and Arun Srinivasan (2019). data.table: Extension of `data.frame`. R package version 1.12.1. http://r-datatable.com
 
 **dplyr**. Hadley Wickham, Romain François, Lionel Henry and Kirill Müller (2018). dplyr: A Grammar of Data Manipulation. R package version 0.7.8. https://CRAN.R-project.org/package=dplyr
 
 **ggplot2**. Hadley Wickham, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke and Kara Woo (2018). ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. R package version 3.1.0. https://CRAN.R-project.org/package=ggplot2
 
-**iml**. Christoph Molnar (2019). iml: Interpretable Machine Learning. R package version 0.8.1. https://github.com/christophM/iml
+**iml**. Christoph Molnar (2019). iml: Interpretable Machine Learning. R package version 0.9.0. https://github.com/christophM/iml
 
 **knitr**. Yihui Xie (2018). knitr: A General-Purpose Package for Dynamic Report Generation in R. R package version 1.20. https://CRAN.R-project.org/package=knitr
 
@@ -130,7 +130,7 @@ Zhao, Qingyuan, and Trevor Hastie. "Causal interpretations of black-box models."
 **ParamHelpers**. Bernd Bischl, Michel Lang, Jakob Richter, Jakob Bossek, Daniel Horn and Pascal Kerschke (2018). ParamHelpers: Helpers for Parameters in Black-Box Optimization, Tuning and
 Machine Learning. R package version 1.11. https://CRAN.R-project.org/package=ParamHelpers
 
-**partykit**. Torsten Hothorn and Achim Zeileis (2018). partykit: A Toolkit for Recursive Partytioning. R package version 1.2-2. https://CRAN.R-project.org/package=partykit
+**partykit**. Torsten Hothorn and Achim Zeileis (2019). partykit: A Toolkit for Recursive Partytioning. R package version 1.2-3. https://CRAN.R-project.org/package=partykit
 
 **pre**. Marjolein Fokkema and Benjamin Christoffersen (2018). pre: Prediction Rule Ensembles. R package version 0.6.0. https://CRAN.R-project.org/package=pre
 

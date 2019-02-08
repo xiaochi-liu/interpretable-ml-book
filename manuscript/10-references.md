@@ -33,7 +33,7 @@ Fokkema, Marjolein, and Benjamin Christoffersen. 2017. Pre: Prediction Rule Ense
 
 Friedman, Jerome H, and Bogdan E Popescu. 2008. “Predictive Learning via Rule Ensembles.” The Annals of Applied Statistics. JSTOR, 916–54.
 
-Friedman, Jerome H. "Greedy function approximation: a gradient boosting machine." Annals of statistics (2001): 1189-1232.
+Friedman, Jerome H. "Greedy Function Approximation: A Gradient Boosting Machine." Annals of statistics (2001): 1189-1232.
 
 Friedman, Jerome, Trevor Hastie, and Robert Tibshirani. "The Elements of Statistical Learning". 2009. www.web.stanford.edu/~hastie/ElemStatLearn/
 
@@ -41,15 +41,17 @@ Fürnkranz, Johannes, Dragan Gamberger, and Nada Lavrač. Foundations of rule le
 
 Goldstein, Alex, et al. "Package ‘ICEbox’." (2017).
 
+Goldstein, Alex, et al. "Package ‘ICEbox’." (2017).
+
 Goodfellow, Ian J., Jonathon Shlens, and Christian Szegedy. "Explaining and harnessing adversarial examples (2014)." arXiv preprint arXiv:1412.6572.
 
-Greenwell, Brandon. M., Boehmke, B. C., and McCarthy, A. J. (2018). A Simple and Effective Model-Based Variable Importance Measure, 1-27. Retrieved from http://arxiv.org/abs/1805.04755
+Greenwell, Brandon M., Bradley C. Boehmke, and Andrew J. McCarthy. "A Simple and Effective Model-Based Variable Importance Measure." arXiv preprint arXiv:1805.04755 (2018).
 
 Heider, Fritz, and Marianne Simmel. 1944. "An Experimental Study of Apparent Behavior." The American Journal of Psychology 57 (2). JSTOR: 243–59.
 
 Holte, Robert C. "Very simple classification rules perform well on most commonly used datasets." Machine learning 11.1 (1993): 63-90.
 
-Hooker, Giles (2004). Discovering Additive Structure in Black Box Functions. Knowledge Discovery and Data Mining, 575–580. http://doi.org/10.1145/1014052.1014122
+Hooker, Giles. "Discovering additive structure in black box functions." Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2004.
 
 Kahneman, Daniel, and Amos Tversky. 1981. "The Simulation Heuristic." STANFORD UNIV CA DEPT OF PSYCHOLOGY.
 
@@ -69,7 +71,7 @@ Lipton, Peter. "Contrastive Explanation." Royal Institute of Philosophy Suppleme
 
 Lipton, Zachary C. "The Mythos of Model Interpretability." arXiv preprint arXiv:1606.03490, 2016.
 
-Lundberg, Scott, and Su-In Lee. 2016. “An unexpected unity among methods for interpreting model predictions,” no. Nips: 1–6. http://arxiv.org/abs/1611.07478.
+Lundberg, Scott, and Su-In Lee. "An unexpected unity among methods for interpreting model predictions." arXiv preprint arXiv:1611.07478 (2016).
 
 Martens, David, and Foster Provost. "Explaining data-driven document classifications." (2013).
 
@@ -81,15 +83,13 @@ Papernot, Nicolas, et al. "Practical black-box attacks against machine learning.
 
 Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin (2018). "Anchors: High-precision model-agnostic explanations." AAAI Conference on Artificial Intelligence.
 
-Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin. "Why should i trust you?: Explaining the predictions of any classifier." Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining. ACM, 2016.
+Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin. "Why Should I Trust You?: Explaining the predictions of any classifier." Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining. ACM, 2016.
 
 Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin. 2016. "Model-Agnostic Interpretability of Machine Learning." ICML Workshop on Human Interpretability in Machine Learning, no. Whi.
 
-Shapley, Lloyd S. 1953. “A Value for N-Person Games.” Contributions to the Theory of Games 2 (28): 307–17.
+Shapley, Lloyd S. "A value for n-person games." Contributions to the Theory of Games 2.28 (1953): 307-317.
 
-Staniak, Mateusz and Przemyslaw Biecek (2018). "Explanations of Model Predictions with live and breakDown Packages." _ArXiv e-prints_. 1804.01955, <URL: https://arxiv.org/abs/1804.01955>.
-
-Strumbelj, Erik, Igor Kononenko, Erik Štrumbelj, and Igor Kononenko. 2014. “Explaining prediction models and individual predictions with feature contributions.” Knowledge and Information Systems 41 (3): 647–65. doi:10.1007/s10115-013-0679-x.
+Staniak, Mateusz, and Przemyslaw Biecek. "Explanations of model predictions with live and breakDown packages." arXiv preprint arXiv:1804.01955 (2018).
 
 Su, Jiawei, Danilo Vasconcellos Vargas, and Kouichi Sakurai. "One pixel attack for fooling deep neural networks." IEEE Transactions on Evolutionary Computation (2019).
 
@@ -99,7 +99,9 @@ Wachter, Sandra, Brent Mittelstadt, and Chris Russell. "Counterfactual explanati
 
 Yang, Hongyu, Cynthia Rudin, and Margo Seltzer. "Scalable Bayesian rule lists." Proceedings of the 34th International Conference on Machine Learning-Volume 70. JMLR. org, 2017.
 
-Zhao, Qingyuan, and Trevor Hastie. "Causal interpretations of black-box models." Journal of Business & Economic Statistics, to appear. A DEPTH AND EXPOSURE TIME (2017).
+Zhao, Qingyuan, and Trevor Hastie. "Causal Interpretations of Black-Box Models." Journal of Business & Economic Statistics, to appear. A depth AND EXPOSURE TIME (2017).
+
+Štrumbelj, Erik, and Igor Kononenko. "Explaining prediction models and individual predictions with feature contributions." Knowledge and information systems 41.3 (2014): 647-665.
 
 Štrumbelj, Erik, and Igor Kononenko. 2011. "A General Method for Visualizing and Explaining Black-Box Regression Models." In International Conference on Adaptive and Natural Computing Algorithms, 21–30. Springer.
 

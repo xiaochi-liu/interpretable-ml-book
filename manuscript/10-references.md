@@ -41,8 +41,6 @@ Fürnkranz, Johannes, Dragan Gamberger, and Nada Lavrač. Foundations of rule le
 
 Goldstein, Alex, et al. "Package ‘ICEbox’." (2017).
 
-Goldstein, Alex, et al. "Package ‘ICEbox’." (2017).
-
 Goodfellow, Ian J., Jonathon Shlens, and Christian Szegedy. "Explaining and harnessing adversarial examples (2014)." arXiv preprint arXiv:1412.6572.
 
 Greenwell, Brandon M., Bradley C. Boehmke, and Andrew J. McCarthy. "A Simple and Effective Model-Based Variable Importance Measure." arXiv preprint arXiv:1805.04755 (2018).
@@ -105,7 +103,8 @@ Zhao, Qingyuan, and Trevor Hastie. "Causal Interpretations of Black-Box Models."
 
 Štrumbelj, Erik, and Igor Kononenko. 2011. "A General Method for Visualizing and Explaining Black-Box Regression Models." In International Conference on Adaptive and Natural Computing Algorithms, 21–30. Springer.
 
-**## R Packages Used for Examples**
+## R Packages Used for Examples 
+
 
 **base**. R Core Team (2018). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
 

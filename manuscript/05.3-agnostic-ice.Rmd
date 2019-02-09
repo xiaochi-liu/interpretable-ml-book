@@ -157,9 +157,4 @@ ICE plots are implemented in the R packages `iml` (used for these examples), `IC
 Another R package that does something very similar to ICE is `condvis`.
 
 
-
-<<<<<<< HEAD
-[^Goldstein2015]: Goldstein, Alex, et al. "Package ‘ICEbox’." (2017).
-=======
 [^Goldstein2017]: Goldstein, Alex, et al. "Package ‘ICEbox’." (2017).
->>>>>>> master

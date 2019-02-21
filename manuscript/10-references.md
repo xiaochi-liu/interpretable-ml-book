@@ -1,89 +1,89 @@
 # References 
 <!-- Generated automatically, please don't edit manually! -->
 
-"Definition of Algorithm." 2017. https://www.merriam-webster.com/dictionary/algorithm.
+"Definition of Algorithm."  https://www.merriam-webster.com/dictionary/algorithm. (2017).
 
-Alberto, Túlio C, Johannes V Lochter, and Tiago A Almeida. 2015. “Tubespam: Comment Spam Filtering on Youtube.” In Machine Learning and Applications (Icmla), 2015 Ieee 14th International Conference on, 138–43. IEEE.
+Aamodt, Agnar, and Enric Plaza. "Case-based reasoning: Foundational issues, methodological variations, and system approaches." AI communications 7.1 (1994): 39-59.
 
-Alvarez-Melis, David, and Tommi S. Jaakkola. "On the Robustness of Interpretability Methods." arXiv preprint arXiv:1806.08049 (2018).
+Alberto, Túlio C, Johannes V Lochter, and Tiago A Almeida. "Tubespam: comment spam filtering on YouTube." In Machine Learning and Applications (Icmla), Ieee 14th International Conference on, 138–43. IEEE. (2015).
 
-Apley, Daniel W. "Visualizing the Effects of Predictor Variables in Black Box Supervised Learning Models." arXiv preprint arXiv:1612.08468 (2016).
+Alvarez-Melis, David, and Tommi S. Jaakkola. "On the robustness of interpretability methods." arXiv preprint arXiv:1806.08049 (2018).
+
+Apley, Daniel W. "Visualizing the effects of predictor variables in black box supervised learning models." arXiv preprint arXiv:1612.08468 (2016).
 
 Athalye, Anish, and Ilya Sutskever. "Synthesizing robust adversarial examples." arXiv preprint arXiv:1707.07397 (2017).
 
-Biggio, Battista, and Fabio Roli. "Wild patterns: Ten years after the rise of adversarial machine learning." Pattern Recognition 84 (2018): 317-331.
+Biggio, Battista, and Fabio Roli. "Wild Patterns: Ten years after the rise of adversarial machine learning." Pattern Recognition 84 (2018): 317-331.
 
-Breiman, Leo. 2001. “Random Forests.” Machine Learning 45 (1). Springer: 5-32.
+Breiman, Leo.“Random Forests.” Machine Learning 45 (1). Springer: 5-32 (2001).
 
 Brown, Tom B., et al. "Adversarial patch." arXiv preprint arXiv:1712.09665 (2017).
 
-Cohen, William W. "Fast effective rule induction." Machine Learning Proceedings 1995. 1995. 115-123.
+Cohen, William W. "Fast effective rule induction." Machine Learning Proceedings (1995). 115-123.
 
 Cook, R. Dennis. "Detection of influential observation in linear regression." Technometrics 19.1 (1977): 15-18.
 
-Doshi-Velez, Finale, and Been Kim. 2017. "Towards A Rigorous Science of Interpretable Machine Learning," no. Ml: 1–13. http://arxiv.org/abs/1702.08608.
+Doshi-Velez, Finale, and Been Kim. "Towards a rigorous science of interpretable machine learning," no. Ml: 1–13. http://arxiv.org/abs/1702.08608 ( 2017).
 
-Fanaee-T, Hadi, and Joao Gama. 2013. “Event Labeling Combining Ensemble Detectors and Background Knowledge.” Progress in Artificial Intelligence. Springer Berlin Heidelberg, 1–15. doi:10.1007/s13748-013-0040-3.
+Fanaee-T, Hadi, and Joao Gama. "Event labeling combining ensemble detectors and background knowledge." Progress in Artificial Intelligence. Springer Berlin Heidelberg, 1–15. doi:10.1007/s13748-013-0040-3. (2013).
 
-Fernandes, Kelwin, Jaime S Cardoso, and Jessica Fernandes. 2017. “Transfer Learning with Partial Observability Applied to Cervical Cancer Screening.” In Iberian Conference on Pattern Recognition and Image Analysis, 243–50. Springer.
+Fernandes, Kelwin, Jaime S Cardoso, and Jessica Fernandes. "Transfer learning with partial observability applied to cervical cancer screening." In Iberian Conference on Pattern Recognition and Image Analysis, 243–50. Springer. (2017).
 
-Fisher, Aaron, Cynthia Rudin, and Francesca Dominici. 2018. “Model Class Reliance: Variable Importance Measures for any Machine Learning Model Class, from the ‘Rashomon’ Perspective.” http://arxiv.org/abs/1801.01489.
+Fisher, Aaron, Cynthia Rudin, and Francesca Dominici. “Model Class Reliance: Variable importance measures for any machine learning model class, from the ‘Rashomon’ perspective.” http://arxiv.org/abs/1801.01489 (2018).
 
-Fokkema, Marjolein, and Benjamin Christoffersen. 2017. Pre: Prediction Rule Ensembles. https://CRAN.R-project.org/package=pre.
+Fokkema, Marjolein, and Benjamin Christoffersen.  "Pre: Prediction rule ensembles". https://CRAN.R-project.org/package=pre (2017).
 
-Friedman, Jerome H, and Bogdan E Popescu. 2008. “Predictive Learning via Rule Ensembles.” The Annals of Applied Statistics. JSTOR, 916–54.
+Friedman, Jerome H, and Bogdan E Popescu. "Predictive learning via rule ensembles." The Annals of Applied Statistics. JSTOR, 916–54. (2008).
 
-Friedman, Jerome H. "Greedy Function Approximation: A Gradient Boosting Machine." Annals of statistics (2001): 1189-1232.
+Friedman, Jerome H. "Greedy function approximation: A gradient boosting machine." Annals of statistics (2001): 1189-1232.
 
-Friedman, Jerome, Trevor Hastie, and Robert Tibshirani. "The Elements of Statistical Learning". 2009. www.web.stanford.edu/~hastie/ElemStatLearn/
+Friedman, Jerome, Trevor Hastie, and Robert Tibshirani. "The elements of statistical learning". www.web.stanford.edu/~hastie/ElemStatLearn/  (2009).
 
-Fürnkranz, Johannes, Dragan Gamberger, and Nada Lavrač. Foundations of rule learning. Springer Science & Business Media, 2012.
+Fürnkranz, Johannes, Dragan Gamberger, and Nada Lavrač. "Foundations of rule learning." Springer Science & Business Media, (2012).
 
 Goldstein, Alex, et al. "Package ‘ICEbox’." (2017).
 
-Goodfellow, Ian J., Jonathon Shlens, and Christian Szegedy. "Explaining and harnessing adversarial examples (2014)." arXiv preprint arXiv:1412.6572.
+Goodfellow, Ian J., Jonathon Shlens, and Christian Szegedy. "Explaining and harnessing adversarial examples." arXiv preprint arXiv:1412.6572  (2014).
 
-Greenwell, Brandon M., Bradley C. Boehmke, and Andrew J. McCarthy. "A Simple and Effective Model-Based Variable Importance Measure." arXiv preprint arXiv:1805.04755 (2018).
+Greenwell, Brandon M., Bradley C. Boehmke, and Andrew J. McCarthy. "A simple and effective model-based variable importance measure." arXiv preprint arXiv:1805.04755 (2018).
 
-Heider, Fritz, and Marianne Simmel. 1944. "An Experimental Study of Apparent Behavior." The American Journal of Psychology 57 (2). JSTOR: 243–59.
+Heider, Fritz, and Marianne Simmel. "An experimental study of apparent behavior." The American Journal of Psychology 57 (2). JSTOR: 243–59. (1944).
 
 Holte, Robert C. "Very simple classification rules perform well on most commonly used datasets." Machine learning 11.1 (1993): 63-90.
 
-Hooker, Giles. "Discovering additive structure in black box functions." Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2004.
+Hooker, Giles. "Discovering additive structure in black box functions." Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining. (2004).
 
-Kahneman, Daniel, and Amos Tversky. 1981. "The Simulation Heuristic." STANFORD UNIV CA DEPT OF PSYCHOLOGY.
+Kahneman, Daniel, and Amos Tversky. "The Simulation Heuristic." Stanford Univ CA Dept of Psychology. (1981).
 
-Kaufman, Leonard, and Peter Rousseeuw. Clustering by means of medoids. North-Holland, 1987.
+Kaufman, Leonard, and Peter Rousseeuw. "Clustering by means of medoids". North-Holland (1987).
 
-Kim, Been, Rajiv Khanna, and Oluwasanmi O. Koyejo. "Examples are not enough, Learn to Criticize! Criticism for Interpretability." Advances in Neural Information Processing Systems. 2016.
-
-Kim, Been, Rajiv Khanna, and Oluwasanmi O. Koyejo. "Examples are not enough, learn to criticize! criticism for interpretability." Advances in Neural Information Processing Systems. 2016.
+Kim, Been, Rajiv Khanna, and Oluwasanmi O. Koyejo. "Examples are not enough, learn to criticize! Criticism for interpretability." Advances in Neural Information Processing Systems (2016).
 
 Koh, Pang Wei, and Percy Liang. "Understanding black-box predictions via influence functions." arXiv preprint arXiv:1703.04730 (2017).
 
-Laugel, Thibault, et al. "Inverse Classification for Comparison-based Interpretability in Machine Learning." arXiv preprint arXiv:1712.08443 (2017).
+Laugel, Thibault, et al. "Inverse classification for comparison-based interpretability in machine learning." arXiv preprint arXiv:1712.08443 (2017).
 
-Letham, Benjamin, et al. "Interpretable classifiers using rules and bayesian analysis: Building a better stroke prediction model." The Annals of Applied Statistics 9.3 (2015): 1350-1371.
+Letham, Benjamin, et al. "Interpretable classifiers using rules and Bayesian analysis: Building a better stroke prediction model." The Annals of Applied Statistics 9.3 (2015): 1350-1371.
 
-Lipton, Peter. "Contrastive Explanation." Royal Institute of Philosophy Supplements 27 (1990): 247-266.
+Lipton, Peter. "Contrastive explanation." Royal Institute of Philosophy Supplements 27 (1990): 247-266.
 
-Lipton, Zachary C. "The Mythos of Model Interpretability." arXiv preprint arXiv:1606.03490, 2016.
+Lipton, Zachary C. "The mythos of model interpretability." arXiv preprint arXiv:1606.03490, (2016).
 
 Lundberg, Scott, and Su-In Lee. "An unexpected unity among methods for interpreting model predictions." arXiv preprint arXiv:1611.07478 (2016).
 
-Martens, David, and Foster Provost. "Explaining data-driven document classifications." (2013).
+Martens, David, and Foster Provost. "Explaining data-driven document classifications." (2014).
 
-Miller, Tim. 2017. "Explanation in Artificial Intelligence: Insights from the Social Sciences." arXiv Preprint arXiv:1706.07269.
+Miller, Tim. "Explanation in artificial intelligence: Insights from the social sciences." arXiv Preprint arXiv:1706.07269. (2017).
 
-Nickerson, Raymond S. 1998. "Confirmation Bias: A Ubiquitous Phenomenon in Many Guises." Review of General Psychology 2 (2). Educational Publishing Foundation: 175.
+Nickerson, Raymond S. "Confirmation Bias: A ubiquitous phenomenon in many guises." Review of General Psychology 2 (2). Educational Publishing Foundation: 175. (1998).
 
-Papernot, Nicolas, et al. "Practical black-box attacks against machine learning." Proceedings of the 2017 ACM on Asia Conference on Computer and Communications Security. ACM, 2017.
+Papernot, Nicolas, et al. "Practical black-box attacks against machine learning." Proceedings of the 2017 ACM on Asia Conference on Computer and Communications Security. ACM (2017).
 
-Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin (2018). "Anchors: High-precision model-agnostic explanations." AAAI Conference on Artificial Intelligence.
+Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin. "Anchors: High-precision model-agnostic explanations." AAAI Conference on Artificial Intelligence (2018).
 
-Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin. "Why Should I Trust You?: Explaining the predictions of any classifier." Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining. ACM, 2016.
+Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin. "Model-agnostic interpretability of machine learning." ICML Workshop on Human Interpretability in Machine Learning. (2016).
 
-Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin. 2016. "Model-Agnostic Interpretability of Machine Learning." ICML Workshop on Human Interpretability in Machine Learning, no. Whi.
+Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin. "Why should I trust you?: Explaining the predictions of any classifier." Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining. ACM (2016).
 
 Shapley, Lloyd S. "A value for n-person games." Contributions to the Theory of Games 2.28 (1953): 307-317.
 
@@ -97,11 +97,11 @@ Wachter, Sandra, Brent Mittelstadt, and Chris Russell. "Counterfactual explanati
 
 Yang, Hongyu, Cynthia Rudin, and Margo Seltzer. "Scalable Bayesian rule lists." Proceedings of the 34th International Conference on Machine Learning-Volume 70. JMLR. org, 2017.
 
-Zhao, Qingyuan, and Trevor Hastie. "Causal Interpretations of Black-Box Models." Journal of Business & Economic Statistics, to appear. A depth AND EXPOSURE TIME (2017).
+Zhao, Qingyuan, and Trevor Hastie. "Causal interpretations of black-box models." Journal of Business & Economic Statistics, to appear. (2017).
+
+Štrumbelj, Erik, and Igor Kononenko. "A general method for visualizing and explaining black-box regression models." In International Conference on Adaptive and Natural Computing Algorithms, 21–30. Springer. (2011).
 
 Štrumbelj, Erik, and Igor Kononenko. "Explaining prediction models and individual predictions with feature contributions." Knowledge and information systems 41.3 (2014): 647-665.
-
-Štrumbelj, Erik, and Igor Kononenko. 2011. "A General Method for Visualizing and Explaining Black-Box Regression Models." In International Conference on Adaptive and Natural Computing Algorithms, 21–30. Springer.
 
 ## R Packages Used for Examples 
 
@@ -118,7 +118,7 @@ Zhao, Qingyuan, and Trevor Hastie. "Causal Interpretations of Black-Box Models."
 
 **knitr**. Yihui Xie (2018). knitr: A General-Purpose Package for Dynamic Report Generation in R. R package version 1.20. https://CRAN.R-project.org/package=knitr
 
-**libcoin**. Torsten Hothorn (2018). libcoin: Linear Test Statistics for Permutation Inference. R package version 1.0-2. https://CRAN.R-project.org/package=libcoin
+**libcoin**. Torsten Hothorn (2019). libcoin: Linear Test Statistics for Permutation Inference. R package version 1.0-3. https://CRAN.R-project.org/package=libcoin
 
 **memoise**. Hadley Wickham, Jim Hester, Kirill Müller and Daniel Cook (2017). memoise: Memoisation of Functions. R package version 1.1.0. https://CRAN.R-project.org/package=memoise
 

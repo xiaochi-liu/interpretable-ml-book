@@ -237,7 +237,7 @@ $$\text{effect}_{j}^{(i)}=w_{j}x_{j}^{(i)}$$
 The effects can be visualized with boxplots.
 A box in a boxplot contains the effect range for half of your data (25% to 75% effect quantiles).
 The vertical line in the box is the median effect, i.e. 50% of the instances have a lower and the other half a higher effect on the prediction.
-The horizontal lines extend to $\pm1.58\text{IQR}/\sqrt{n}$, with IQR being the inter quartile range (75% quantile minus 25% quantile).
+The horizontal lines extend to $\pm1.5\text{IQR}/\sqrt{n}$, with IQR being the inter quartile range (75% quantile minus 25% quantile).
 The dots are outliers.
 The categorical feature effects can be summarized in a single boxplot, compared to the weight plot, where each category has its own row.
 
@@ -304,7 +304,7 @@ effect_plot(mod, dat) +
 If we average the predictions for the training data instances, we get an average of `r round(predictions_mean, 0)`. 
 In comparison, the prediction of the `r i`-th instance is small, since only `r round(pred_i, 0)` bicycle rents are predicted.
 The effect plot reveals the reason why.
-The boxplots show the distributions of the effects for all instances of the dataset, the red crosses show the effects for the `r i`-th instance.
+The boxplots show the distributions of the effects for all instances of the dataset, the crosses show the effects for the `r i`-th instance.
 The `r i`-th instance has a low temperature effect because on this day the temperature was `r round(X[i, 'temp'],0)` degrees, which is low compared to most other days (and remember that the weight of the temperature feature is positive).
 Also, the effect of the trend feature "days_since_2011" is small compared to the other data instances because this instance is from early 2011 (`r  X[i, 'days_since_2011']` days) and the trend feature also has a positive weight.
 

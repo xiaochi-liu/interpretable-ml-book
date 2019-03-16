@@ -118,13 +118,13 @@ Zhao, Qingyuan, and Trevor Hastie. "Causal interpretations of black-box models."
 
 **knitr**. Yihui Xie (2018). knitr: A General-Purpose Package for Dynamic Report Generation in R. R package version 1.20. https://CRAN.R-project.org/package=knitr
 
-**libcoin**. Torsten Hothorn (2019). libcoin: Linear Test Statistics for Permutation Inference. R package version 1.0-3. https://CRAN.R-project.org/package=libcoin
+**libcoin**. Torsten Hothorn (2019). libcoin: Linear Test Statistics for Permutation Inference. R package version 1.0-4. https://CRAN.R-project.org/package=libcoin
 
 **memoise**. Hadley Wickham, Jim Hester, Kirill Müller and Daniel Cook (2017). memoise: Memoisation of Functions. R package version 1.1.0. https://CRAN.R-project.org/package=memoise
 
 **mlr**. Bernd Bischl, Michel Lang, Lars Kotthoff, Julia Schiffner, Jakob Richter, Zachary Jones, Giuseppe Casalicchio, Mason Gallo and Patrick Schratz (2018). mlr: Machine Learning in R. R package version 2.13. https://CRAN.R-project.org/package=mlr
 
-**mvtnorm**. Alan Genz, Frank Bretz, Tetsuhisa Miwa, Xuefei Mi and Torsten Hothorn (2018). mvtnorm: Multivariate Normal and t Distributions. R package version 1.0-8. https://CRAN.R-project.org/package=mvtnorm
+**mvtnorm**. Alan Genz, Frank Bretz, Tetsuhisa Miwa, Xuefei Mi and Torsten Hothorn (2019). mvtnorm: Multivariate Normal and t Distributions. R package version 1.0-10. https://CRAN.R-project.org/package=mvtnorm
 
 **NLP**. Kurt Hornik (2018). NLP: Natural Language Processing Infrastructure. R package version 0.2-0. https://CRAN.R-project.org/package=NLP
 
@@ -142,3 +142,7 @@ Machine Learning. R package version 1.11. https://CRAN.R-project.org/package=Par
 **tidyr**. Hadley Wickham and Lionel Henry (2018). tidyr: Easily Tidy Data with 'spread()' and 'gather()' Functions. R package version 0.8.2. https://CRAN.R-project.org/package=tidyr
 
 **tm**. Ingo Feinerer and Kurt Hornik (2018). tm: Text Mining Package. R package version 0.7-5. https://CRAN.R-project.org/package=tm
+
+**viridis**. Simon Garnier (2018). viridis: Default Color Maps from 'matplotlib'. R package version 0.5.1. https://CRAN.R-project.org/package=viridis
+
+**viridisLite**. Simon Garnier (2018). viridisLite: Default Color Maps from 'matplotlib' (Lite Version). R package version 0.3.0. https://CRAN.R-project.org/package=viridisLite

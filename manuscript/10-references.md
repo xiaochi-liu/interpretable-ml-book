@@ -43,6 +43,8 @@ Fürnkranz, Johannes, Dragan Gamberger, and Nada Lavrač. "Foundations of rule l
 
 Goldstein, Alex, et al. "Package ‘ICEbox’." (2017).
 
+Goldstein, Alex, et al. "Peeking inside the black box: Visualizing statistical learning with plots of individual conditional expectation." Journal of Computational and Graphical Statistics 24.1 (2015): 44-65.
+
 Goodfellow, Ian J., Jonathon Shlens, and Christian Szegedy. "Explaining and harnessing adversarial examples." arXiv preprint arXiv:1412.6572  (2014).
 
 Greenwell, Brandon M., Bradley C. Boehmke, and Andrew J. McCarthy. "A simple and effective model-based variable importance measure." arXiv preprint arXiv:1805.04755 (2018).

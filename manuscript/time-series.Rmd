@@ -1,0 +1,35 @@
+# Time Series
+
+
+First, let's see what times of way time plays a role in predictive modeling:
+
+Time series can be either the target y or the a feature x or both.
+Special case is time series forecasting where you x and y is the same, but only y lies in the future.
+
+examples:
+
+- Predict future sales based on past sales (e.g. trend, saisonality and so on)
+- Predict or classify something based on a time-series feature. e.g. predict whether a patient has some heart disease based on the EKG measurement which is a curve over time.
+- The target y might also be a curve, e.g. predict how the EKG might look like based on patient characteristics.
+
+
+Distinguish between time series forecasting, temporal features and temporal outcomes.
+Not a clear cut between them.
+
+What's special about time series data?
+Autocorrelation, i.e. the data point at time t is strongly correlated to the value at time t+1.
+This means the curve usually does not jump arbitrarily, but has a temporal dependence.
+
+
+Another question is: How do you represent time?
+As raw data?
+Or do you extract things like mean, trend, saisonality, location of peaks, shape indicators and so on and include this as features into your model?
+
+
+Another special case is survival analysis where the outcome is survival yes or no and we also have feature that vary over time.
+
+
+Sliding window as a technique is often used.
+
+
+Some material about forecasting: https://otexts.com/fpp2/

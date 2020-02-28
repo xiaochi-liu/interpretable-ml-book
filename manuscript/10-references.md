@@ -110,40 +110,40 @@ Zhao, Qingyuan, and Trevor Hastie. "Causal interpretations of black-box models."
 
 **base**. R Core Team (2018). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
 
-**data.table**. Matt Dowle and Arun Srinivasan (2019). data.table: Extension of `data.frame`. R package version 1.12.1. http://r-datatable.com
+**data.table**. Matt Dowle and Arun Srinivasan (2019). data.table: Extension of `data.frame`. R package version 1.12.8. https://CRAN.R-project.org/package=data.table
 
-**dplyr**. Hadley Wickham, Romain François, Lionel Henry and Kirill Müller (2018). dplyr: A Grammar of Data Manipulation. R package version 0.7.8. https://CRAN.R-project.org/package=dplyr
+**dplyr**. Hadley Wickham, Romain François, Lionel Henry and Kirill Müller (2020). dplyr: A Grammar of Data Manipulation. R package version 0.8.4. https://CRAN.R-project.org/package=dplyr
 
-**ggplot2**. Hadley Wickham, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke and Kara Woo (2018). ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. R package version 3.1.0. https://CRAN.R-project.org/package=ggplot2
+**ggplot2**. Hadley Wickham, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo and Hiroaki Yutani (2019). ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. R package version 3.2.1. https://CRAN.R-project.org/package=ggplot2
 
 **iml**. Christoph Molnar (2019). iml: Interpretable Machine Learning. R package version 0.9.0. https://github.com/christophM/iml
 
-**knitr**. Yihui Xie (2018). knitr: A General-Purpose Package for Dynamic Report Generation in R. R package version 1.20. https://CRAN.R-project.org/package=knitr
+**knitr**. Yihui Xie (2020). knitr: A General-Purpose Package for Dynamic Report Generation in R. R package version 1.28. https://CRAN.R-project.org/package=knitr
 
 **libcoin**. Torsten Hothorn (2019). libcoin: Linear Test Statistics for Permutation Inference. R package version 1.0-4. https://CRAN.R-project.org/package=libcoin
 
 **memoise**. Hadley Wickham, Jim Hester, Kirill Müller and Daniel Cook (2017). memoise: Memoisation of Functions. R package version 1.1.0. https://CRAN.R-project.org/package=memoise
 
-**mlr**. Bernd Bischl, Michel Lang, Lars Kotthoff, Julia Schiffner, Jakob Richter, Zachary Jones, Giuseppe Casalicchio, Mason Gallo and Patrick Schratz (2018). mlr: Machine Learning in R. R package version 2.13. https://CRAN.R-project.org/package=mlr
+**mlr**. Bernd Bischl, Michel Lang, Lars Kotthoff, Julia Schiffner, Jakob Richter, Zachary Jones, Giuseppe Casalicchio, Mason Gallo and Patrick Schratz (2020). mlr: Machine Learning in R. R package version 2.17.0. https://CRAN.R-project.org/package=mlr
 
-**mvtnorm**. Alan Genz, Frank Bretz, Tetsuhisa Miwa, Xuefei Mi and Torsten Hothorn (2019). mvtnorm: Multivariate Normal and t Distributions. R package version 1.0-10. https://CRAN.R-project.org/package=mvtnorm
+**mvtnorm**. Alan Genz, Frank Bretz, Tetsuhisa Miwa, Xuefei Mi and Torsten Hothorn (2019). mvtnorm: Multivariate Normal and t Distributions. R package version 1.0-11. https://CRAN.R-project.org/package=mvtnorm
 
 **NLP**. Kurt Hornik (2018). NLP: Natural Language Processing Infrastructure. R package version 0.2-0. https://CRAN.R-project.org/package=NLP
 
-**ParamHelpers**. Bernd Bischl, Michel Lang, Jakob Richter, Jakob Bossek, Daniel Horn and Pascal Kerschke (2018). ParamHelpers: Helpers for Parameters in Black-Box Optimization, Tuning and
-Machine Learning. R package version 1.11. https://CRAN.R-project.org/package=ParamHelpers
+**ParamHelpers**. Bernd Bischl, Michel Lang, Jakob Richter, Jakob Bossek, Daniel Horn and Pascal Kerschke (2019). ParamHelpers: Helpers for Parameters in Black-Box Optimization, Tuning and
+Machine Learning. R package version 1.13. https://CRAN.R-project.org/package=ParamHelpers
 
-**partykit**. Torsten Hothorn and Achim Zeileis (2019). partykit: A Toolkit for Recursive Partytioning. R package version 1.2-3. https://CRAN.R-project.org/package=partykit
+**partykit**. Torsten Hothorn and Achim Zeileis (2019). partykit: A Toolkit for Recursive Partytioning. R package version 1.2-4. https://CRAN.R-project.org/package=partykit
 
-**pre**. Marjolein Fokkema and Benjamin Christoffersen (2018). pre: Prediction Rule Ensembles. R package version 0.6.0. https://CRAN.R-project.org/package=pre
+**pre**. Marjolein Fokkema and Benjamin Christoffersen (2019). pre: Prediction Rule Ensembles. R package version 0.7.0. https://CRAN.R-project.org/package=pre
 
-**readr**. Hadley Wickham, Jim Hester and Romain Francois (2017). readr: Read Rectangular Text Data. R package version 1.1.1. https://CRAN.R-project.org/package=readr
+**readr**. Hadley Wickham, Jim Hester and Romain Francois (2018). readr: Read Rectangular Text Data. R package version 1.3.1. https://CRAN.R-project.org/package=readr
 
 **rpart**. Terry Therneau and Beth Atkinson (2018). rpart: Recursive Partitioning and Regression Trees. R package version 4.1-13. https://CRAN.R-project.org/package=rpart
 
-**tidyr**. Hadley Wickham and Lionel Henry (2018). tidyr: Easily Tidy Data with 'spread()' and 'gather()' Functions. R package version 0.8.2. https://CRAN.R-project.org/package=tidyr
+**tidyr**. Hadley Wickham and Lionel Henry (2019). tidyr: Tidy Messy Data. R package version 1.0.0. https://CRAN.R-project.org/package=tidyr
 
-**tm**. Ingo Feinerer and Kurt Hornik (2018). tm: Text Mining Package. R package version 0.7-5. https://CRAN.R-project.org/package=tm
+**tm**. Ingo Feinerer and Kurt Hornik (2018). tm: Text Mining Package. R package version 0.7-6. https://CRAN.R-project.org/package=tm
 
 **viridis**. Simon Garnier (2018). viridis: Default Color Maps from 'matplotlib'. R package version 0.5.1. https://CRAN.R-project.org/package=viridis
 

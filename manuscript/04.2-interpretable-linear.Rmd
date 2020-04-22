@@ -96,7 +96,7 @@ Changing the feature from the reference category to the other category changes t
 A feature with a fixed number of possible values.
 An example is the feature "floor type", with possible categories "carpet", "laminate" and "parquet".
 A solution to deal with many categories is the one-hot-encoding, meaning that each category has its own binary column.
-For a categorical feature with L categories, you only need L-1 columns, because the L-th column would have redundant information (e.g. when columns 1 to L-1 all have value 0 for one instance, we know that the categorical feature of this instance takes on category L).
+For a categorical feature with L categories, you only need L-1 columns, because the L-th column would have redundant information (e.g. when columns 1 to L-1 all have value 0 for one instance, we know that the categorical feature of this instance takes on category 1).
 The interpretation for each category is then the same as the interpretation for binary features.
 Some languages, such as R, allow you to encode categorical features in various ways, as [described later in this chapter](#cat-code).
 - Intercept $\beta_0$: 
